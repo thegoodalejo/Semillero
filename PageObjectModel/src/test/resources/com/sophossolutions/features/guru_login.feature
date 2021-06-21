@@ -1,9 +1,9 @@
 #Author: elber.ceballos@sophossolutions.com
 
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Inicio sesion en Guru
+  Yo como automatizador quiero ingresar a la pagina Guru
 
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    When I complete action
-    Then I validate the outcomes
+  Scenario: Inicio sesion en Guru
+    Given Deseo ir a la pagina de "http://demo.guru99.com/v4/"
+    When Ingreso nombre de usuario "mngr335743" y contraseña "agYtybY"
+    Then Validar que el titulo sea "Manger Id : mngr335743"
