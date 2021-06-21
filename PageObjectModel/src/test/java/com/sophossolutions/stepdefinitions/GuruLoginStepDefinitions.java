@@ -5,14 +5,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class GuruLoginStepDefinitions {
-	@Given("I want to login into {string}")
-	public void iWantToLoginInto(String string) {
+	@Given("I want to login into {url}")
+	public void iWantToLoginInto(String url) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("I input username {string} and password {string}")
-	public void iInputUsernameAndPassword(String string, String string2) {
+	@When("I input username {user} and password {psw}")
+	public void iInputUsernameAndPassword(String user, String psw) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
