@@ -1,5 +1,5 @@
 package com.sophossolutions.pages;
 
-public class GuroLogin {
+public class GuruLogin {
 
 }
