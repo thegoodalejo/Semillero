@@ -103,3 +103,7 @@
 2021-06-21 12:24:36,334 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-06-21 12:24:36,334 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\elber.ceballos\Documents\Semillero Ejercicios\Semillero\PageObjectModel\src\main\resources
 2021-06-21 12:24:36,336 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-21 12:24:36,339 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-21 14:29:03,448 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-21 14:29:03,449 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\elber.ceballos\Documents\Semillero Ejercicios\Semillero\PageObjectModel\src\main\resources
+2021-06-21 14:29:03,451 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
