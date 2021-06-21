@@ -8,8 +8,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		glue = "",
-		features = "",
+		glue = "com.sophossolutions.stepdefinitions",
+		features = "src/test/com/sophossolutions/features/guru_login.feature",
 		snippets = SnippetType.CAMELCASE
 		)
 
