@@ -1,10 +1,9 @@
-#Author: alejandro.orozco@sophossolutions.com
+#Author: angel.vivas@sophossolutions.com
 
-Feature: Iniciar sesion en Guru
-  Yo como automatizador quiero ingresar a la pagina Guru
-  
-  Scenario: Iniciar sesion en Guru
-    Given Deseo ir a la pagina de "http://demo.guru99.com/V4/"
-    When Ingreso nombre de usuario "mngr335002" y password "AvyqEhu"
-    Then Valido que el titulo sea "Manger Id : mngr335002"
+Feature: Iniciar sesion en guru
+	Yo como automatizador quiero ingresar a la pagina  guru
 
+	Scenario: Iniciar sesion en Guru
+		Given Deseo ir a la pagina de "https://demo.guru99.com/v4/"
+		When Ingreso nombre de usuario "mngr335754" y password "AjAjYnu"
+		Then Valido que el titulo sea "Manager Id : mngr335754"
