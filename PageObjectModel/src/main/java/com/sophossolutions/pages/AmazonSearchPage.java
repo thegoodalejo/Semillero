@@ -1,12 +1,43 @@
 package com.sophossolutions.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import com.sophossolutions.actions.Action;
 
 import net.thucydides.core.pages.PageObject;
 
 public class AmazonSearchPage extends PageObject {
 	
-	public By searchResults = By.xpath("//div[@data-cel-widget and @data-index and not(contains(@class, 'AdHolder'))]//div[contains(@class,'sg-col-12-of-20')]");
+	String searchResult1 = "(//div[@data-cel-widget and @data-index and not(contains(@class, 'AdHolder'))]//div[contains(@class,'sg-col-12-of-20')])[3]";
+	String searchResult2 = "(//div[@data-cel-widget and @data-index and not(contains(@class, 'AdHolder'))]//div[contains(@class,'sg-col-12-of-20')])[7]";
+	String searchResult3 = "(//div[@data-cel-widget and @data-index and not(contains(@class, 'AdHolder'))]//div[contains(@class,'sg-col-12-of-20')])[12]";
+	
+	private String getTitle(String selector) {
+		By title = By.xpath(selector + "//h2//span");
+		return Action.getElementText(getDriver(), title);
+	}
+	private String getPrice(String selector) {
+		By title = By.xpath(selector + "//span[contains(@class, 'a-offscreen')][1]");
+		return Action.getElementText(getDriver(), title);
+	}
+	
+	public void printResults() {
+		System.out.println(getTitle(searchResult1));
+		String price = getPrice(searchResult1);
+		if (!price.equals("no")) {
+			System.out.println("El elemento tiene precio " + price);
+		}
+		System.out.println(getTitle(searchResult2));
+		price = getPrice(searchResult2);
+		if (!price.equals("no")) {
+			System.out.println("El elemento tiene precio " + price);
+		}
+		System.out.println(getTitle(searchResult3));
+		price = getPrice(searchResult3);
+		if (!price.equals("no")) {
+			System.out.println("El elemento tiene precio " + price);
+		}
+	}
 
 }
