@@ -54,9 +54,4 @@ public class Action {
 	}
 	
 
-	public static void buscar(WebDriver myBrowser, By busqueda, String producto) {
-		myBrowser.findElement(busqueda).sendKeys("escritorio");
-		
-	}
-
 }
