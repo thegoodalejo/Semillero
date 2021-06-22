@@ -39,6 +39,22 @@ public class Action {
 		myBrowser.findElement(textoBusqueda).sendKeys(texto);
 		myBrowser.findElement(btnBuscar).click();
 	}
+	
+	
+	//Validar Resultados
+	public static void validarTexto(WebDriver driver, 
+			 By nombreP1, By nombreP2, By nombreP3, By precioP1, By precioP2, By precioP3,
+			 String strP1, String strP2, String strP3 ) {
+			 
+			String textoP1 = "nombre: "+ driver.findElement(nombreP1).getText()+ "precio: "+ driver.findElement(precioP1).getText();
+			String textoP2 = "nombre: "+ driver.findElement(nombreP2).getText()+ "precio: "+ driver.findElement(precioP2).getText();
+			String textoP3 = "nombre: "+ driver.findElement(nombreP1).getText()+ "precio: "+ driver.findElement(precioP3).getText();
+			
+			System.out.println(textoP1);
+			System.out.println(textoP2);
+			System.out.println(textoP3);
+	}
+	
 
 	public static void buscar(WebDriver myBrowser, By busqueda, String producto) {
 		myBrowser.findElement(busqueda).sendKeys("escritorio");
