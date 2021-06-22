@@ -218,3 +218,11 @@
 2021-06-22 18:31:02,871 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andres.guarnizo\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero\POM\Semillero\PageObjectModel\src\main\resources
 2021-06-22 18:31:02,874 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-06-22 18:31:02,882 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-06-22 18:42:39,273 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 18:42:39,274 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andres.guarnizo\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero\POM\Semillero\PageObjectModel\src\main\resources
+2021-06-22 18:42:39,275 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 18:42:39,280 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-06-22 18:43:34,976 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 18:43:34,977 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andres.guarnizo\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero\POM\Semillero\PageObjectModel\src\main\resources
+2021-06-22 18:43:34,978 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 18:43:34,982 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
