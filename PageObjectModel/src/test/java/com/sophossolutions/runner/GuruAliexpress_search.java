@@ -9,9 +9,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		glue = "com.sophossolutions.stepdefinitions",
-		features = "src/test/resources/com/sophossolutions/features/guru_login.feature",
+		features = "src/test/resources/com/sophossolutions/features/aliexpress_search3.feature",
 		snippets = SnippetType.CAMELCASE
 		)
-public class GuruLogin {
+public class GuruAliexpress_search {
 
 }
