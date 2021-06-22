@@ -1,7 +1,5 @@
 package com.sophossolutions.actions;
 
-import static org.junit.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
