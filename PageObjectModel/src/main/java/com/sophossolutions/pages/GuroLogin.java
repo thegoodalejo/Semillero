@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("http://demo.guru99.com/v4")
 public class GuroLogin extends PageObject{
 
-	 By userId = By.name("uid");
+	 /*By userId = By.name("uid");
 	 By password = By.name("password");
 	 By btnLogin = By.xpath("//input[@type='submit']");
 	 By btnReset = By.xpath("//input[@type='reset']");
@@ -23,6 +23,7 @@ public class GuroLogin extends PageObject{
 	 //Login
 	 public void Login(String userName, String strPassword) {
 		 Action.Login(getDriver(), userId, password, btnLogin, userName, strPassword);
-	 }
+	 }*/
+	
 	 
 }

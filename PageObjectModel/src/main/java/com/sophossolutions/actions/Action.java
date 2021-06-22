@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 public class Action {
 	 
 	//Navegar a las vistas de la pagina
-	public static void navegateToUrl(WebDriver myBrowser, String url) {
+	/*public static void navegateToUrl(WebDriver myBrowser, String url) {
 		 myBrowser.navigate().to(url);
 	 }
 	
@@ -32,6 +32,12 @@ public class Action {
 				strTittle,
 				tituloActual);
 		 
+	}*/
+	
+	//Buscar
+	public static void Buscar(WebDriver myBrowser, By textoBusqueda, By btnBuscar, String texto) {
+		myBrowser.findElement(textoBusqueda).sendKeys(texto);
+		myBrowser.findElement(btnBuscar).click();
 	}
 
 }
