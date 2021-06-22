@@ -1,25 +1,10 @@
-#Author: tu.correo@sophossolutions.com
+#Author: julian.espitaleta@sophossolutions.com
 
-Feature: Búsqueda de [artículo]
-  I want to use this template for my feature file
+Feature: Búsqueda de Joycons
+  Quiero como automatizador probar la búsqueda de Joycons
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
-
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+  
+  Scenario: Buscar Joycon
+    Given Quiero buscar Joy-Cons en "https://www.amazon.com"
+    When Ingreso "Joy-Con" en la barra de búsqueda y procedo a buscar
+    Then Debería ver al menos 2 productos y sus precios que se relacionen con la palabra "Joycon"
