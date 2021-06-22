@@ -12,12 +12,13 @@ public class GuruLoginStepDefinitions {
 	public void deseoIrALaPaginaDe(String url) {
 		System.out.println("@Given");
 		loginGuru.navegateTo(url);
-		
+		//loginGuru.open();
 	}	
 
 	@When("Ingreso nombre de usuario {string} y password {string}")
-	public void ingresoNombreDeUsuarioYPassword(String string, String string2) {
+	public void ingresoNombreDeUsuarioYPassword(String strUserName, String strPassword) {
 		System.out.println("@When");
+		loginGuru.login(strUserName, strPassword);
 	}
 
 	@Then("Valido que el titulo sea {string}")
