@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonP1" project="PageObjectModel" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runner.AmazonP1" time="14.594">
+    <testsuite name="Realizar Busqueda de producto" time="14.594">
+      <testcase name="Realizar la busqueda de producto" classname="Realizar Busqueda de producto" time="14.594"/>
+    </testsuite>
+  </testsuite>
+</testrun>

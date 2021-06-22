@@ -24,5 +24,6 @@ public class AmazonP2StepDefinitions {
 	public void valido_que_el_producto_uno_con_el_producto_dos_con_y_el_producto_tres_con_se_encuentren_en_los_resultados_de_la_busqueda(String string, String string2, String string3) {
 	    // Write code here that turns the phrase above into concrete actions
 	    amazonP2.validarTexto(string, string2, string3);
+	    
 	}
 }

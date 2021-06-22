@@ -1,0 +1,12 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+
+import net.thucydides.core.pages.PageObject;
+
+public class AmazonP1 extends PageObject{
+	
+	By busqueda = By.name("field-keywords");
+	By btnBuscar = By.id("nav-search-submit-button");
+
+}
