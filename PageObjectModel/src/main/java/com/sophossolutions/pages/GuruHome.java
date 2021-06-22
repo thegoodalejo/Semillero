@@ -8,10 +8,11 @@ import net.thucydides.core.pages.PageObject;
 
 public class GuruHome extends PageObject{
 	
-	By titulo; 
+	By title = By.xpath("tr[@class='heading3']/td[text()])");
+	
 	public void validateTitle(String strTitle){
 		
-		//Action.validateText(driver, by,stringTitulo);		
+		Actions.validateText(getDriver(), title, strTitle);		
 	}
 
 }

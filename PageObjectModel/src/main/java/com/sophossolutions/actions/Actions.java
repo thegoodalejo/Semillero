@@ -2,6 +2,8 @@ package com.sophossolutions.actions;
 
 import org.openqa.selenium.WebDriver;
 
+import static org.junit.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 
 public class Actions {
@@ -16,5 +18,12 @@ public class Actions {
 		myBrowser.findElement(userName).sendKeys(strUserName);
 		myBrowser.findElement(password).sendKeys(strPassword);
 		myBrowser.findElement(btnlogin).click();
+	}
+	 public static void validateText(WebDriver driver, By title, String strTitle) {
+	
+		 String tituloActual = driver.findElement(title).getText();
+		 assertEquals(
+				 "El valor esperado:	\"" + strTitle + "\", es diferente a : \"" + tituloActual + "\"", strTitle, tituloActual);
+		// assertEquals( "titulo en caso de fallo : ", strTitle, tituloActual);
 	}
 }
