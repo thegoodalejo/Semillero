@@ -6,4 +6,9 @@ public class Action {
 	public static void navegateToUrl(WebDriver myBrowser, String url) {
 		myBrowser.navigate().to(url);
 	}
+	
+	public void hola() {
+		
+	}
+	
 }
