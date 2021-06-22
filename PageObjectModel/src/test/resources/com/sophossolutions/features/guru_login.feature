@@ -5,5 +5,5 @@ Feature: Iniciar sesion en Guru
 
   Scenario: Iniciar sesion en Guru
     Given Deseo ir a la pagina de "http://demo.guru99.com/V4/"
-    When Ingreso nombre de ususario "mngr335761" Y Password "ypUzypE"
+    When Ingreso nombre de ususario "mngr335761" Y password "ypUzypE"
     Then Valido que el titulo sea "Manger Id : mngr335761"
