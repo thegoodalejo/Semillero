@@ -5,8 +5,9 @@ Feature: Title of your feature
  
  # UserID = mngr335753
  # Pass = AgYjYnu
+ 
 
   Scenario: Iniciar sesion en Guru
-    Given Deseo ir a la pagina de "http://demo.guru99.com/V4"
+    Given Deseo ir a la pagina de "http://demo.guru99.com/V4/"
     When Ingreso el nombre de usuario "mngr335753" y password "AgYjYnu"
     Then Valido que el titulo sea "Manager Id: mngr335753"
