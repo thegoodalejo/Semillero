@@ -14,7 +14,6 @@ public class GuruLoginStepDefinitions {
 	@Given("Deseo ir a la pagina de {string}")
 	public void deseoIrALaPaginaDe(String url) {
 		System.out.println("@Given");
-		
 		login.navegateTo(url);
 	}
 
