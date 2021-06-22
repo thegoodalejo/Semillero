@@ -1,19 +1,20 @@
 package com.sophossolutions.pages;
 
-import org.junit.runner.RunWith;
+import com.sophossolutions.actions.Action;
 
-import io.cucumber.junit.CucumberOptions;
-import io.cucumber.junit.CucumberOptions.SnippetType;
-import net.serenitybdd.cucumber.CucumberWithSerenity;
+import net.thucydides.core.pages.PageObject;
+import org.openqa.selenium.By;
 
-@RunWith(CucumberWithSerenity.class)
-@CucumberOptions(
-	glue = "com.sophossolutions.stepdefinitions", 
-	features = "src/test/resources/com/sophossolutions/features/guru_login.feature",
-	snippets = SnippetType.CAMELCASE
+public class GuroLogin extends PageObject {
 	
-	)
-
-public class GuroLogin {
+	By userName = By.name("uid");
+	By password = By.name("password");
+	By btnlogin = By.xpath("//input[@name='btnLogin']");
+	
+	public void navegateTo(String url) {
+		
+		Action.navegateToUrl(getDriver(), url);
+		
+	}
 
 }
