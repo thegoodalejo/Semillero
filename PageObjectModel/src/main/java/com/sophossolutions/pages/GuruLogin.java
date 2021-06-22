@@ -16,4 +16,11 @@ public class GuruLogin extends PageObject{
 		Action.navigateToUrl(getDriver(), url);
 	}
 	
+	public void login(String usr, String psw) {
+		Action.typeIntoField(getDriver(), username, usr);
+		Action.typeIntoField(getDriver(), password, psw);
+		Action.clickElement(getDriver(), loginBtn);
+	}
+	
+	
 }
