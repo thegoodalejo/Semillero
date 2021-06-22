@@ -14,11 +14,8 @@ public class AmazonMain extends PageObject{
 		Action.navigateToUrl(getDriver(), url);
 	}
 	
-	public void typeIntoSearchBar(String search) {
+	public void search(String search) {
 		Action.typeIntoField(getDriver(), searchBar, search);
-	}
-	
-	public void search() {
 		Action.clickElement(getDriver(), searchButton);
 	}
 	
