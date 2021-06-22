@@ -10,8 +10,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		glue = "com.sophossolutions.stepdefinitions",
 		features = "src/test/resources/com/sophossolutions/features/guru_login.feature",
-		snippets = SnippetType.CAMELCASE,
-		strict = true
+		snippets = SnippetType.CAMELCASE
+		
 		)
 public class GuruLogin {
 
