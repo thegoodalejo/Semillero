@@ -10,4 +10,4 @@ Feature: Title of your feature
   Scenario: Iniciar sesion en Guru
     Given Deseo ir a la pagina de "http://demo.guru99.com/V4/"
     When Ingreso el nombre de usuario "mngr335753" y password "AgYjYnu"
-    Then Valido que el titulo sea "Manager Id: mngr335753"
+    Then Valido que el titulo sea "Manger Id : mngr335753 VashEstampida"
