@@ -14,13 +14,15 @@ public class GuruLoginStepDefinitions
 	@Given("Deseo ir a la pagina de {string}")
 	public void deseoIngresarALaPagina(String url) {
 		System.out.println("@Given");
-		gl.navegateTo(url);
+		//gl.navegateTo(url);
+		gl.open();
 		
 	}
 
 	@When("ingreso nombre de usurio {string} y contraseña {string}")
 	public void ingresoNombreDeUsurioYContraseña(String string, String string2) {
 		System.out.println("@Given");
+		gl.Login(string, string2);
 	}
 
 	@Then("valido que el titulo sea {string}")
