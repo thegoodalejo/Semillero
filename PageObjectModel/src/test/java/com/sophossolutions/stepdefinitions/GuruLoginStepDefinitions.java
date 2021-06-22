@@ -1,14 +1,18 @@
 package com.sophossolutions.stepdefinitions;
 
+import com.sophossolutions.pages.GuroLogin;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+
 public class GuruLoginStepDefinitions {
+	
+	GuroLogin guroLogin;
 
 	@Given("Deseo ir a la pagina de {string}")
 	public void deseoIrALaPaginaDe(String string) {
-		System.out.println("@Given");
+		guroLogin.navegateToUrl(string);
 	}
 
 	@When("Ingreso nombre de usuario {string} y password {string}")
