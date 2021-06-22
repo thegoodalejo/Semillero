@@ -10,10 +10,13 @@ public class GuroLogin extends PageObject {
 
 	By userName = By.name("uid");
 	By password = By.name("password");
-	By btnLogin = By.name("btnLogin");
-	//By btnLoginxPath = By.xpath("aca el xpath");
+	By btnLogin = By.xpath("//input[@value='LOGIN']");
 	
 	public void navegateTo(String url) {
 		Action.navegateToUrl(getDriver(), url);
+	}
+	
+	public void Login(String strname, String strpass) {
+		Action.login(getDriver(),userName,password,btnLogin,strname,strpass);
 	}
 }

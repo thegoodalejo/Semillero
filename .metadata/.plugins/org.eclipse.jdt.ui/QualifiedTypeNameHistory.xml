@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.serenitybdd.core.annotations.findby.By"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.actions.Action"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.GuroHome"/>
+</qualifiedTypeNameHistroy>
