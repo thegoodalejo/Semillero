@@ -36,6 +36,7 @@ public class SearchStepDefinitions {
 	}
 
 
+
 	@Then("Debería ver al menos {int} productos y sus precios")
 	public void deberiaVerAlMenosProductosYSusPreciosQueSeRelacionenConLaPalabra(Integer int1) {
 	    results.printResults();

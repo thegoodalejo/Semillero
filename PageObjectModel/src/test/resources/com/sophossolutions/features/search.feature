@@ -1,7 +1,7 @@
 #Author: julian.espitaleta@sophossolutions.com
 
 Feature: Búsqueda de producto
-  Quiero como automatizador probar la búsqueda de productos
+  Quiero como automatizador probar la busqueda de productos
 
   
   Scenario Outline: <Search>
