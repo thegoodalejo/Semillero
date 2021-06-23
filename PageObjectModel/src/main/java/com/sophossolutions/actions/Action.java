@@ -22,7 +22,10 @@ public class Action {
 	}
 	
 	public static void MostrarArticulos(WebDriver myBrowser,By Nombre1, By precio1) {
-		
+		/*
+		if( myBrowser.findElements(Nombre1).Size() > 0 && myBrowser.findElement(precio1).getSize()) {
+			
+		}*/
 		String Nombrestr1 =  myBrowser.findElement(Nombre1).getText();
 		String preciostr1 =  myBrowser.findElement(precio1).getText();
 		
