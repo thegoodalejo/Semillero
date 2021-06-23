@@ -26,7 +26,7 @@ public class Action {
 		String Nombrestr1 =  myBrowser.findElement(Nombre1).getText();
 		String preciostr1 =  myBrowser.findElement(precio1).getText();
 		
-		System.out.println("Nombre del articulo1: " + Nombrestr1 + " ---- Precio: " + preciostr1);
+		System.out.println("Nombre del articulo: " + Nombrestr1 + " ---- Precio: " + preciostr1);
 		
 	}
 	

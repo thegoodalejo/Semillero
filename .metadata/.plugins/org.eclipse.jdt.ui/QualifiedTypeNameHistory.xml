@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="net.serenitybdd.core.annotations.findby.By"/>
     <fullyQualifiedTypeName name="com.sophossolutions.actions.Action"/>
     <fullyQualifiedTypeName name="com.sophossolutions.pages.GuroHome"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.AliExpress3Home"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.AliExpress3Result"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
 </qualifiedTypeNameHistroy>

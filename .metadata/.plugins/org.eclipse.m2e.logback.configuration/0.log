@@ -583,3 +583,476 @@
 2021-06-22 16:42:45,186 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-06-22 16:42:45,187 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
 2021-06-22 16:42:45,187 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:42:45,188 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:48:14,509 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:48:14,509 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:48:14,511 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:48:14,512 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:49:44,364 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:44,364 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:49:44,365 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:44,366 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:49:45,433 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:45,433 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:49:45,434 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:45,435 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:49:57,330 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:57,331 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:49:57,332 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:57,333 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:49:58,683 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:58,683 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:49:58,684 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:49:58,685 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:54:25,295 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:54:25,296 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:54:25,297 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:54:25,298 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 16:54:26,384 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:54:26,385 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 16:54:26,386 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 16:54:26,387 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:00:46,763 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:00:46,763 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:00:46,765 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:00:46,765 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:00:47,833 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:00:47,834 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:00:47,835 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:00:47,835 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:02:07,168 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:02:07,168 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:02:07,170 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:02:07,171 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:02:08,278 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:02:08,278 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:02:08,279 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:02:08,280 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:16:36,138 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:16:36,139 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:16:36,140 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:16:36,141 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:16:37,237 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:16:37,237 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:16:37,238 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:16:37,239 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:18:23,938 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:18:23,939 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:18:23,940 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:18:23,941 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:18:25,040 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:18:25,040 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:18:25,041 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:18:25,042 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:19:27,262 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:19:27,263 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:19:27,264 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:19:27,265 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:19:28,385 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:19:28,385 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:19:28,386 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:19:28,386 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:20:10,799 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:20:10,800 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:20:10,801 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:20:10,802 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:20:11,908 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:20:11,908 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:20:11,910 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:20:11,911 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:21:06,969 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:21:06,970 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:21:06,972 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:21:06,972 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:21:08,080 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:21:08,080 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:21:08,081 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:21:08,082 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:22:26,304 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:22:26,304 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:22:26,305 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:22:26,305 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:22:27,370 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:22:27,371 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:22:27,372 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:22:27,373 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:25:56,359 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:25:56,360 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:25:56,361 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:25:56,362 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:25:57,486 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:25:57,487 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:25:57,488 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:25:57,488 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:27:45,465 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:27:45,466 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:27:45,467 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:27:45,467 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 17:27:46,574 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:27:46,574 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 17:27:46,576 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 17:27:46,577 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 19:35:57,925 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 19:35:57,926 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 19:35:57,927 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 19:35:57,928 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-22 19:35:59,005 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 19:35:59,006 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-22 19:35:59,007 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-22 19:35:59,008 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-23 08:32:52,272 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-23 08:33:41,659 [Worker-5: Launching GuruAliexpress_search] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:29:48,239 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-06-23 09:30:30,699 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:30:35,087 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:30:35,089 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:30:35,093 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:30:35,101 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:32:33,475 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:33,479 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:33,491 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:33,494 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:33,497 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:33,507 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:32:57,330 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\pom.xml.
+2021-06-23 09:32:59,256 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:33:04,016 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:33:04,018 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:33:04,023 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:33:04,026 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:33:08,795 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:33:09,644 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:33:09,645 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:33:09,652 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:33:09,663 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:33:57,380 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:33:57,383 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:33:57,392 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration GuruAliexpress_search references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:33:57,395 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:33:57,398 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:33:57,410 [Worker-18: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PageObjectModel references non-existing project PageObjectModel.
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel references non-existing project PageObjectModel.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-06-23 09:35:15,644 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\Semillero\PageObjectModel\pom.xml.
+2021-06-23 09:35:17,450 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:35:22,446 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:35:22,448 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\Semillero\PageObjectModel\src\main\resources
+2021-06-23 09:35:22,453 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:35:22,456 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:35:48,594 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-23 09:36:28,344 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\pom.xml.
+2021-06-23 09:36:31,165 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:36:35,977 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:36:35,978 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:36:35,982 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:36:35,988 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:38:05,718 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-23 09:38:23,993 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-06-23 09:38:25,936 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\pom.xml.
+2021-06-23 09:38:27,690 [Worker-0: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:38:31,167 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PageObjectModel/src/main/java
+2021-06-23 09:38:31,171 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PageObjectModel/src/test/java
+2021-06-23 09:38:31,173 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PageObjectModel/src/test/resources
+2021-06-23 09:38:34,157 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2021-06-23 09:38:39,239 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:38:40,669 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:38:40,669 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:38:40,684 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:38:40,694 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:40:42,384 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-23 09:40:51,034 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:40:52,574 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:40:52,598 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:40:52,605 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:40:52,639 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-23 09:40:54,809 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\pom.xml.
+2021-06-23 09:40:55,657 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:40:58,271 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:40:58,272 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:40:58,276 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:40:58,277 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-23 09:41:39,112 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-06-23 09:41:39,845 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sophossolutions:PageObjectModel:0.0.1-SNAPSHOT @ C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\pom.xml.
+2021-06-23 09:41:40,610 [Worker-8: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:41:42,698 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PageObjectModel/src/main/java
+2021-06-23 09:41:42,700 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PageObjectModel/src/test/java
+2021-06-23 09:41:42,702 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PageObjectModel/src/test/resources
+2021-06-23 09:41:44,235 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2021-06-23 09:41:46,022 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2021-06-23 09:41:46,819 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-23 09:41:46,820 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santiago.espinal\Desktop\Trabajo\PageObjectModel\src\main\resources
+2021-06-23 09:41:46,825 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
