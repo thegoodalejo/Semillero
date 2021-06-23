@@ -3,8 +3,12 @@
 Feature: Buscar un producto
   Yo como automatizador quiero buscar un producto
   
-  Scenario: Buscar producto
-    Given Deseo ir a la pagina de "https://es.aliexpress.com/"
-    When Ingreso nombre de producto "echo dot 3"
+  Scenario Outline: Buscar producto
+    Given Deseo ir a la pagina de <url>
+    When Ingreso nombre de producto <articulo>
     Then Valido que se muestren tres articulos
+    
+    Examples:
+      |url												| articulo
+      |https://es.aliexpress.com/ | echo dot 3
 
