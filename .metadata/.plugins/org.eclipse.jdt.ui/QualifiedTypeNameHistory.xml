@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.actions.Action"/>
+    <fullyQualifiedTypeName name="net.thucydides.core.pages.PageObject"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.AmazonP1"/>
+</qualifiedTypeNameHistroy>
