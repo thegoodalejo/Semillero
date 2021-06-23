@@ -19,12 +19,12 @@ public class SearchStepDefinitions {
 
 
 	@When("Ingreso {string} en la barra de búsqueda y procedo a buscar")
-	public void ingresoEnLaBarraDeBúsquedaYProcedoABuscar(String strSearch) {
+	public void ingresoEnLaBarraDeBusquedaYProcedoABuscar(String strSearch) {
 	    main.search(strSearch);
 	}
 
 	@Then("Debería ver al menos {int} productos y sus precios que se relacionen con la palabra {string}")
-	public void deberíaVerAlMenosProductosYSusPreciosQueSeRelacionenConLaPalabra(Integer int1, String string) {
+	public void deberiaVerAlMenosProductosYSusPreciosQueSeRelacionenConLaPalabra(Integer int1, String string) {
 	    results.printResults();
 	}
 }

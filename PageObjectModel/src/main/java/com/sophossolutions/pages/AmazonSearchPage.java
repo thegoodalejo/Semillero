@@ -17,37 +17,28 @@ public class AmazonSearchPage extends PageObject {
 		By title = By.xpath(selector + "//h2//span");
 		return Action.getElementText(getDriver(), title);
 	}
+	
 	private String getPrice(String selector) {
 		By whole = By.xpath(selector + "//span[contains(@class, 'a-price-whole')][1]");
 		By frac = By.xpath(selector + "//span[contains(@class, 'a-price-fraction')][1]");
 		return "$" + Action.getElementText(getDriver(), whole) + "." + Action.getElementText(getDriver(), frac);
 	}
 	
-	public void printResults() {
-		System.out.println("-----------------------------------------------------------");
-		System.out.println(getTitle(searchResult1));
-		String price = getPrice(searchResult1);
+	private void printSearchResult(String searchResult) {
+		System.out.println("-----------------------------------------------------------\n" + getTitle(searchResult));
+		String price = getPrice(searchResult);
 		if (!price.equals("$no.no")) {
 			System.out.println("El elemento tiene precio " + price);
 		} else {
 			System.out.println("El elemento no tiene precio disponible");
 		}
-		System.out.println("-----------------------------------------------------------");
-		System.out.println(getTitle(searchResult2));
-		price = getPrice(searchResult2);
-		if (!price.equals("$no.no")) {
-			System.out.println("El elemento tiene precio " + price);
-		}else {
-			System.out.println("El elemento no tiene precio disponible");
-		}
-		System.out.println("-----------------------------------------------------------");
-		System.out.println(getTitle(searchResult3));
-		price = getPrice(searchResult3);
-		if (!price.equals("$no.no")) {
-			System.out.println("El elemento tiene precio " + price);
-		}else {
-			System.out.println("El elemento no tiene precio disponible");
-		}
+	}
+	
+	// print all search results
+	public void printResults() {
+		printSearchResult(searchResult1);
+		printSearchResult(searchResult2);
+		printSearchResult(searchResult3);
 	}
 
 }
