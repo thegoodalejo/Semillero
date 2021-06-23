@@ -9,19 +9,20 @@ import net.thucydides.core.pages.PageObject;
 
 public class MercadoLibreResultado extends PageObject{
 	
-	By dirProducto1 =By.xpath("//ol/li[1]/div/div/div[2]/div[1]/a/h2");
-	By dirPrecio1 =By.xpath("//ol/li[1]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/span[1]");
+	String strPathProducto = "//ol/li[%s]/div/div/div[2]/div[1]/a/h2";
+	String strPathPrecio = "//ol/li[%s]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/span[1]";
 	
-	By dirProducto2 =By.xpath("//ol/li[3]/div/div/div[2]/div[1]/a/h2");
-	By dirPrecio2 =By.xpath("//ol/li[3]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/span[1]");
+	By dirProducto ;
+	By dirPrecio ;
 	
-	By dirProducto3 =By.xpath("//ol/li[7]/div/div/div[2]/div[1]/a/h2");
-	By dirPrecio3 =By.xpath("//ol/li[7]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/span[1]");
 	
-	public void validateResult(){
-		ActionsMercadoLibre.validateResults(getDriver(), dirProducto1, dirPrecio1);
-		ActionsMercadoLibre.validateResults(getDriver(), dirProducto2, dirPrecio2);
-		ActionsMercadoLibre.validateResults(getDriver(), dirProducto3, dirPrecio3);
+	public void validateResult(String strNumero){
+		dirProducto = By.xpath(String.format(strPathProducto, strNumero));
+		dirPrecio = By.xpath(String.format(strPathPrecio, strNumero));
+			
+						 
+		ActionsMercadoLibre.validateResults(getDriver(), dirProducto, dirPrecio);
+		
 	}
 
 }

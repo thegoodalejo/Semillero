@@ -12,24 +12,28 @@ public class busquedaProductosStepDefinitions {
 	MercadoLibreHome busquedaHome; 
 	MercadoLibreResultado resultado;
 	
-	@Given("Deseo ir a la pagina de {string}")
-	public void deseoIrALaPaginaDe(String url) {
-		System.out.println("@Given");
-		busquedaHome.navegateTo(url);
-		//loginGuru.navegateTo(url);
-		//loginGuru.open();
-	}
-	
-	@When("Ingreso nombre de producto  {string}")
-	public void ingresoNombreDeProducto(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    busquedaHome.buscar(string);
+
+	    
+	@Given("Deseo ir a la pagina {string}")
+	public void deseoIrALaPagina(String strUrl) {
+		busquedaHome.navegateTo(strUrl);
+	    
 	}
 
-	@Then("Muestro nombre y precio del producto")
-	public void muestroNombreYPrecioDelProducto() {
-	    // Write code here that turns the phrase above into concrete actions
-	    resultado.validateResult();
+	@When("Ingreso nombre de producto (.+)$")
+	public void ingresoNombreDeProducto(String strNombreProducto) {
+		busquedaHome.buscar(strNombreProducto);
+	    
 	}
+
+	@Then("Muestro nombre y precio del producto {string}")
+	public void muestroNombreYPrecioDelProducto(String strListNum) {
+		
+		String[] arrNum = strListNum.split(",");
+		for (int i=0; i<arrNum.length; i++) {
+		resultado.validateResult(arrNum[i]);}
+	}
+	
+	
 
 }
