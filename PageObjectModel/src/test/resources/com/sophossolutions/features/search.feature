@@ -7,7 +7,7 @@ Feature: Búsqueda de producto
   Scenario Outline: <Search>
     Given Quiero buscar en la pagina <Url>
     When Ingreso <Product> en la barra de búsqueda y procedo a buscar
-    Then Debería ver al menos 2 productos y sus precios que se relacionen con la palabra <Product>
+    Then Debería ver al menos 3 productos y sus precios
     
     Examples:
     	|     Search                |           Url          |    Product    |
