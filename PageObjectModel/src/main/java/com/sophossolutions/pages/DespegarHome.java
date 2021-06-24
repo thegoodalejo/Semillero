@@ -40,15 +40,8 @@ public class DespegarHome extends PageObject{
 	}
 	public void ingresarDatos(String strOrigen,String strDestino,String strFechaIda,String strFechaVuelta) {
 		
-		//1ro ingresar origen
-		Actions.presionarBoton(getDriver(), barOrigen);
-		Actions.buscar(getDriver(), barOrigen, strOrigen);
-		Actions.presionarBoton(getDriver(), btnOrigen);
-		
-		//2do ingresar destino
-		Actions.presionarBoton(getDriver(), barDestino);
-		Actions.buscar(getDriver(), barDestino, strDestino);
-		Actions.presionarBoton(getDriver(), btnDestino);
+		Actions.ingresarOrigen(getDriver(),barOrigen,btnOrigen,strOrigen);
+		Actions.ingresarOrigen(getDriver(),barDestino,btnDestino,strDestino);
 		
 		//Ingresar fecha ida
 		Actions.presionarBoton(getDriver(),btnFechaIda);
@@ -64,42 +57,29 @@ public class DespegarHome extends PageObject{
 	}
 	
 	public void seleccionarClase(String strClase) {
-		//selecionar clase
 		Actions.selecciona(getDriver(),btnOtros,selClase,opClases,strClase);
 		aceptarCambios();
 	}
 	
 	public void ingresarAdultos(String strCantidad) {
-		Actions.presionarBoton(getDriver(),btnOtros);
-		Actions.presionarBoton(getDriver(),btnOtros);
-		if(strCantidad!="1") {
-			for(int i=1;i<Integer.parseInt(strCantidad);i++) {
-				Actions.presionarBoton(getDriver(),btnMasAdultos);
-				//Actions.esperar(getDriver());
-			}
-		}
+		Actions.ingresarPersonas(getDriver(),btnOtros,btnMasAdultos,strCantidad);
 		aceptarCambios();
 	}
 	
 	public void ingresarNinos(String strCantidad) {
-		Actions.presionarBoton(getDriver(),btnOtros);
-		Actions.presionarBoton(getDriver(),btnOtros);
-		if(strCantidad!="0") {
-			for(int i=0;i<Integer.parseInt(strCantidad);i++) {
-				Actions.presionarBoton(getDriver(),btnMasNinos);
-			}
-		}
+		Actions.ingresarPersonas(getDriver(),btnOtros,btnMasNinos,strCantidad);
 		aceptarCambios();
 	}
+	
 	public void ingresarEdadNinos(String strEdad) {
-		Actions.presionarBoton(getDriver(),btnOtros);
-		Actions.presionarBoton(getDriver(),btnOtros);
-		Actions.seleccionarCabina(getDriver(), selClase, opEdad, strEdad);
+		Actions.selecciona(getDriver(),btnOtros,selClase,opEdad,strEdad);
 		aceptarCambios();
 	}
+	
 	public void aceptarCambios() {
 		Actions.presionarBoton(getDriver(),btnAceptarCambios);
 	}
+	
 	public void buscarResultados() {
 		Actions.presionarBoton(getDriver(),btnBusqueda);
 	}

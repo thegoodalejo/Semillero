@@ -73,6 +73,29 @@ public class Actions {
 	public static void imprimiResultados() {
 		
 	}
+
+
+
+	public static void ingresarPersonas(WebDriver driver, By btnOtros, By btnMasAdultos, String strCantidad) {
+		presionarBoton(driver,btnOtros);
+		presionarBoton(driver,btnOtros);
+		if(strCantidad!="1") {
+			for(int i=1;i<Integer.parseInt(strCantidad);i++) {
+				presionarBoton(driver,btnMasAdultos);
+			}
+		}
+		
+	}
+
+
+
+	public static void ingresarOrigen(WebDriver driver, By barOrigen, By btnOrigen,String strOrigen) {
+		presionarBoton(driver, barOrigen);
+		buscar(driver, barOrigen, strOrigen);
+		presionarBoton(driver, btnOrigen);
+		
+	}
+
 	
 
 }
