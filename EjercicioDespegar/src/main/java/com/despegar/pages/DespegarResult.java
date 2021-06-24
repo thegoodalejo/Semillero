@@ -19,7 +19,7 @@ public class DespegarResult extends PageObject {
 		List<WebElement> listArilines = getDriver().findElements(By.xpath(xpathAirlines));
 		List<WebElement> listPrices   = getDriver().findElements(By.xpath(xpathPrices));
 		// Print list
-		/*
+		
 		for(WebElement AirLine: listArilines) {
 			System.out.println(AirLine.getText());
 		}
@@ -27,7 +27,6 @@ public class DespegarResult extends PageObject {
 		for(WebElement Price: listPrices) {
 			System.out.println(Price.getText());
 		}
-		*/
 		if( listArilines.size() == listPrices.size()) {
 			int tamList = listArilines.size(), indMenor = 0;
 			float menor = Float.parseFloat(listPrices.get(indMenor).getText().replace(".", ""));

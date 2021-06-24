@@ -23,7 +23,7 @@ public class DespegarSearchStepDefinitions {
 		despegarHome.writeToCity(strToCity);
 		despegarHome.writeDateIni();
 		despegarHome.writeDateEnd();
-		despegarHome.selectPassengers(1, 2);
+		despegarHome.selectPassengers(2, 2);
 		despegarHome.searchTravel();
 	}
 	

@@ -8,5 +8,6 @@ Scenario Outline: Busqueda vuelo mas economico por empresa
 
     Examples: 
       |targetOrigen |targetDestino |
-      |Bucaramanga  |Bogota        |
-      
+      |Bucaramanga  |Medellin      |
+      |Cali         |Bogota        |
+      |Medellin     |Bucaramanga   |

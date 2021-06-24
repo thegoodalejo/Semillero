@@ -51,7 +51,7 @@ public class DespegarHome extends PageObject {
 		Action.clickInObject(getDriver(), calendarEnd);
 		Action.clickInObject(getDriver(), calendarIni);
 		Action.clickInObject(getDriver(), calendarEnd);
-		Action.clickInObject(getDriver(), By.xpath( String.format(dateFormat,"2")) );
+		Action.clickInObject(getDriver(), By.xpath( String.format(dateFormat,"8")) );
 		
 	}
 

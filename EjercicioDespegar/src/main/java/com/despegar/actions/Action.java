@@ -20,8 +20,9 @@ public class Action {
 
 	public static void scrollDown(WebDriver myBrowser) {
 		JavascriptExecutor js = (JavascriptExecutor) myBrowser;
-		for(int i = 5; i <= 100; i += 5) {
-			js.executeScript("window.scrollTo("+(i-5)/100.0 +"*document.body.scrollHeight, "+i/100.0+"*document.body.scrollHeight);");
+		float delta = 1F;
+		for(float i = delta; i <= 100; i += delta) {
+			js.executeScript("window.scrollTo("+(i-delta)/100.0 +"*document.body.scrollHeight, "+i/100.0+"*document.body.scrollHeight);");
 		}
 	}
 	
