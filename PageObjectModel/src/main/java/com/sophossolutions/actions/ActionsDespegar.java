@@ -74,6 +74,14 @@ public class ActionsDespegar {
 	        }
 	        driver.findElement(btnAplicarTipo).click(); 
 	    }
+
+
+	public static void Buscar(WebDriver driver, By btnBuscarVuelo) {
+		driver.findElement(btnBuscarVuelo).click(); 
+        //driver.manage().wait(2000);
+		
+		
+	}
 }
 	
 	

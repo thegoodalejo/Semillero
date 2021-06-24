@@ -33,7 +33,11 @@ public class DespegarHome extends PageObject{
 	//Selecionar Clase
 	By btnSeleccionarClase=  By.xpath("//div[@class='sbox5-3-select -lg']//select[@class='select-tag']//option[@class='select-option']");
 	By btnMenuTipo=  By.xpath("//div[@class='sbox5-3-select -lg']//select[@class='select-tag']");
-	By btnAplicarTipo=  By.xpath("//*[@id=\"component-modals\"]/div[3]/div/div/div[3]/a/em");
+	By btnAplicarTipo=  By.xpath("//div[3]/div/div/div[3]/a/em");
+	
+	//Precionar Buscar
+	By btnBuscarVuelo=  By.xpath("//div/div[2]/div[3]/button/em");
+	//div/div[2]/div[3]/button/em
 	public void navegateTo(String url) {
 		ActionsDespegar.navegateToUrl(getDriver(), url);
 	}
@@ -57,7 +61,7 @@ public class DespegarHome extends PageObject{
 		
 		 
 		ActionsDespegar.selecionarClase(getDriver(), btnOpciones, btnSeleccionarClase, btnMenuTipo, strTipo, btnAplicarTipo);
-		
+		ActionsDespegar.Buscar(getDriver(), btnBuscarVuelo);
         
 	    }
 }
