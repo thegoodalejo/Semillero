@@ -35,7 +35,7 @@ public class ActionsDespegar {
 		//driver.findElement(btnfechaVuelta).click();
 		//driver.findElement(btnfechaRegreso).click();
 		//driver.findElement(btnfechaVuelta).click();
-		//driver.findElement(btnAplicar).click();
+		driver.findElement(btnAplicar).click();
 		
 
 	}
