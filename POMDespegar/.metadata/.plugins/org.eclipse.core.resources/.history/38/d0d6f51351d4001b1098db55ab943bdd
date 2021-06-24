@@ -1,0 +1,13 @@
+package com.sophossolutions.pages;
+
+import com.sophossolutions.actions.Action;
+
+import net.serenitybdd.core.pages.PageObject;
+
+public class BuscarVuelo extends PageObject {
+	
+	public void navigateTo(String url) {
+		Action.navigateToUrl(getDriver(), url);
+	}
+	
+}

@@ -1,0 +1,67 @@
+package com.sophossolutions.actions;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Action {
+	
+	public static void navigateToUrl(WebDriver myBrowser, String url) {
+		myBrowser.navigate().to(url);
+	}
+
+	public static void selecRuta(WebDriver myBrowser, By cerrarPop, By origen, By destino, By select, String strOrigen, String strDestino) {
+
+		myBrowser.findElement(origen).click();
+		myBrowser.findElement(origen).sendKeys(strOrigen);
+		myBrowser.findElement(select).click();
+		myBrowser.findElement(destino).click();
+		myBrowser.findElement(destino).sendKeys(strDestino);
+		myBrowser.findElement(select).click();
+		myBrowser.findElement(cerrarPop).click();
+	}
+	
+	public static void selecFecha(WebDriver myBrowser, By ida, By fechaIda, By fechaVuelta) {
+		myBrowser.findElement(ida).click();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		myBrowser.findElement(fechaIda).click();
+		myBrowser.findElement(fechaVuelta).click();
+	}
+
+	public static void selPasajeros(WebDriver myBrowser, By pasajeros, By adultos, By menores, By edad) {
+		myBrowser.findElement(pasajeros).click();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		myBrowser.findElement(adultos).click();
+		myBrowser.findElement(menores).click();
+		myBrowser.findElement(edad).click();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		WebElement select = myBrowser.findElement(edad);
+		List<WebElement> options = select.findElements(edad);
+		for (WebElement option:options) {
+			if ("4 años".equals(option.getText())) {
+				option.click();
+			}
+		}
+		
+	}
+		
+
+}

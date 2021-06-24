@@ -1,0 +1,9 @@
+#Author: andres.guarnizo@sophossolutions.com
+@tag
+Feature: Title of your feature
+  Yo como automatizador quiero ingresar a la pagina guru
+
+  Scenario: Iniciar sesion en Guru
+    Given Deseo ir a la pagina de "http://demo.guru99.com/V4/"
+    When Ingreso nombre de usuario "mngr335752" y password "YbUjany"
+    Then Valido que el titulo sea "Manager Id : mngr335752"

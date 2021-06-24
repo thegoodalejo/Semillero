@@ -1,0 +1,39 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+
+import com.sophossolutions.actions.Action;
+
+import net.serenitybdd.core.pages.PageObject;
+
+public class BuscarVuelo extends PageObject {
+	
+	By cerrarPop = By.xpath("//i[@class='tooltip-close dreck-3-icon-close incentive-close']");
+	By origen = By.xpath("(//input[@placeholder = 'Ingresa desde dónde viajas'])[1]");
+	By destino = By.xpath("(//input[@placeholder = 'Ingresa hacia dónde viajas'])[1]");
+	By select = By.xpath("//li[@class = 'item -active']");
+	By ida = By.xpath("(//input[@placeholder = 'Ida'])[1]");
+	By fechaIda = By.xpath("(//div[contains(@data-month,'06')]//div[text()='30'])[1]");
+	By fechaVuelta = By.xpath("(//div[contains(@data-month,'07')]//div[text()='20'])[1]");
+	/*By pasajeros = By.xpath("(//input[@placeholder = ''])[1]");
+	By adultos = By.xpath("(//button[@class='steppers-icon-right stepper__icon'])[1]");
+	By menores = By.xpath("(//button[@class='steppers-icon-right stepper__icon'])[2]");
+	By edad = By.xpath("//select[@class='select']");*/
+	
+	public void navigateTo(String url) {
+		Action.navigateToUrl(getDriver(), url);
+	}
+	
+	public void ingresarRuta(String strOrigen, String strDestino) {
+		Action.selecRuta(getDriver(), cerrarPop, origen, destino, select, strOrigen, strDestino);
+	}
+	
+	public void seleccionarFecha() {
+		Action.selecFecha(getDriver(), ida, fechaIda, fechaVuelta);
+	}
+	
+	/*public void selectPasajeros() {
+		Action.selPasajeros(getDriver(), pasajeros, adultos, menores, edad);
+	}*/
+	
+}

@@ -1,0 +1,31 @@
+package com.sophossolutions.stepdefinitions;
+
+import com.sophossolutions.pages.BuscarVuelo;
+import com.sophossolutions.pages.GuruHome;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GuruLoginStepDefinitions {
+	BuscarVuelo loginGuru;
+	GuruHome validateT;
+	
+	@Given("Deseo ir a la pagina de {string}")
+	public void deseoIrALaPaginaDe(String url) {
+	    System.out.println("@Given");
+	    loginGuru.navigateTo(url);
+	}
+
+	@When("Ingreso nombre de usuario {string} y password {string}")
+	public void ingresoNombreDeUsuarioYPassword(String strUserName, String strPassword) {
+		System.out.println("@When");
+		loginGuru.login(strUserName, strPassword);
+	}
+
+	@Then("Valido que el titulo sea {string}")
+	public void validoQueElTituloSea(String texto) {
+		System.out.println("@Then");
+		validateT.validateTitle(texto);
+	}
+	
+}

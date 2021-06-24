@@ -1,0 +1,22 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+
+import com.sophossolutions.actions.Action;
+
+import net.serenitybdd.core.pages.PageObject;
+
+public class BuscarVuelo extends PageObject {
+	
+	By origen = By.xpath("(//input[@placeholder = 'Ingresa desde dónde viajas'])[1]");
+	By destino = By.xpath("(//input[@placeholder = 'Ingresa hacia dónde viajas'])[1]");
+	
+	public void navigateTo(String url) {
+		Action.navigateToUrl(getDriver(), url);
+	}
+	
+	public void ingresarRuta(String strOrigen, String strDestino) {
+		Action.selecRuta(getDriver(), origen, destino, strOrigen, strDestino);
+	}
+	
+}

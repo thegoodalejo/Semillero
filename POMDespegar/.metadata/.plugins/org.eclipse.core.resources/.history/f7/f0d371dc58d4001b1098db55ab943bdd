@@ -1,0 +1,20 @@
+package com.sophossolutions.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+	
+	public static void navigateToUrl(WebDriver myBrowser, String url) {
+		myBrowser.navigate().to(url);
+	}
+
+	public static void selecRuta(WebDriver myBrowser, By origen, By destino, By select, String strOrigen, String strDestino) {
+		myBrowser.findElement(origen).sendKeys(strOrigen);
+		myBrowser.findElement(origen).sendKeys();
+		myBrowser.findElement(select).click();
+		myBrowser.findElement(destino).sendKeys(strDestino);
+		myBrowser.findElement(select).click();
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.BuscarVuelo"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="net.serenitybdd.core.pages.PageObject"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.actions.Action"/>
+    <fullyQualifiedTypeName name="com.sophossolutions.pages.PreciosVuelos"/>
+</qualifiedTypeNameHistroy>

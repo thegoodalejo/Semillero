@@ -1,0 +1,37 @@
+package com.sophossolutions.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+	
+	public static void navigateToUrl(WebDriver myBrowser, String url) {
+		myBrowser.navigate().to(url);
+	}
+
+	public static void selecRuta(WebDriver myBrowser, By cerrarPop, By origen, By destino, By select, String strOrigen, String strDestino) {
+
+		myBrowser.findElement(origen).click();
+		myBrowser.findElement(origen).sendKeys(strOrigen);
+		myBrowser.findElement(select).click();
+		myBrowser.findElement(destino).click();
+		myBrowser.findElement(destino).sendKeys(strDestino);
+		myBrowser.findElement(select).click();
+		myBrowser.findElement(cerrarPop).click();
+	}
+	
+	public static void selecFecha(WebDriver myBrowser, By ida, By fechaIda, By fechaVuelta) {
+		myBrowser.findElement(ida).click();
+		myBrowser.findElement(fechaIda).click();
+		myBrowser.findElement(fechaVuelta).click();
+	}
+
+	public static void selPasajeros(WebDriver myBrowser, By pasajeros, By adultos, By menores, By edad) {
+		myBrowser.findElement(pasajeros).click();
+		myBrowser.findElement(adultos).click();
+		myBrowser.findElement(menores).click();
+		myBrowser.findElement(edad).click();
+	}
+		
+
+}

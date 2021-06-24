@@ -1,0 +1,15 @@
+#Author: andres.guarnizo@sophossolutions.com
+@tag
+Feature: Title of your feature
+  Yo como automatizador quiero ingresar a la pagina despegar y buscar vuelos
+
+  Scenario Outline: Buscar vuelos
+    Given Deseo ir a la pagina de "https://www.despegar.com.co/"
+    When Selecciono origen <origen> y destino <destino> en fecha de ida <fIda> y vuelta <fVuelta>
+    Then busco los vuelos disponibles con sus precios
+
+    Examples: 
+      | origen        | destino       | fIda     | fVuelta  |
+      | "Bogota"      | "Cartagena"   | Junio 30 | Julio 11 |
+      | "Bucaramanga" | "Santa Marta" | Junio 28 | Julio 13 |
+      | "Medellin"    | "Cali"        | Junio 26 | Julio 15 |

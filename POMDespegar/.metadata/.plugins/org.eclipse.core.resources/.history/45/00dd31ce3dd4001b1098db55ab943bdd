@@ -1,0 +1,21 @@
+package com.sophossolutions.stepdefinitions;
+
+
+public class DespegarStepDefinitions {
+	
+	@Given("Deseo ir a la pagina de {string}")
+	public void deseoIrALaPaginaDe(String string) {
+		
+	}
+
+	@When("Selecciono origen {string} y destino {string}")
+	public void seleccionoOrigenYDestino(String string, String string2) {
+	    
+	}
+
+	@Then("busco los vuelos disponibles con sus precios")
+	public void buscoLosVuelosDisponiblesConSusPrecios() {
+	    
+	}
+	
+}

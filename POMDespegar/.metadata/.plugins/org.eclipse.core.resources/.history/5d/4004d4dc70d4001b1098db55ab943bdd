@@ -1,0 +1,10 @@
+#Author: andres.guarnizo@sophossolutions.com
+
+@tag
+Feature: Title of your feature
+  Yo como automatizador quiero ingresar a la pagina despegar y buscar vuelos
+
+  Scenario Outline: Buscar vuelos
+    Given Deseo ir a la pagina de <url>
+    When Selecciono origen <origen> y destino <destino> en fecha de ida <fIda> y vuelta <fVuelta>
+    Then busco los vuelos disponibles con sus precios

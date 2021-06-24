@@ -1,0 +1,9 @@
+#Author: andres.guarnizo@sophossolutions.com
+@tag
+Feature: Title of your feature
+  Yo como automatizador quiero ingresar a la pagina despegar y buscar vuelos Bogota - Bucaramanga
+
+  Scenario: Buscar vuelos Bogota - Bucaramanga
+    Given Deseo ir a la pagina de "https://www.despegar.com.co/"
+    When Selecciono origen "Bogota" y destino "Bucaramanga"
+    Then busco los vuelos disponibles con sus precios

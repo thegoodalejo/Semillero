@@ -1,0 +1,21 @@
+package com.sophossolutions.pages;
+
+import org.openqa.selenium.By;
+import com.sophossolutions.actions.Action;
+import net.thucydides.core.pages.PageObject;
+
+public class BuscarVuelo extends PageObject {
+	
+	By username = By.name("uid");
+	By password = By.name("password");
+	By btnLogin = By.xpath("//input[@type = 'submit']");
+	
+	public void navigateTo(String url) {
+		Action.navigateToUrl(getDriver(), url);
+	}
+	
+	public void login(String strUserName, String strPassword) {
+		Action.login(getDriver(), username, password, btnLogin, strUserName, strPassword);
+	}
+
+}

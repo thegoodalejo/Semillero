@@ -1,0 +1,30 @@
+package com.sophossolutions.stepdefinitions;
+
+import com.sophossolutions.pages.BuscarVuelo;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class DespegarStepDefinitions {
+	
+	BuscarVuelo buscarVuelo;
+	
+	@Given("Deseo ir a la pagina de {string}")
+	public void deseoIrALaPaginaDe(String url) {
+		buscarVuelo.navigateTo(url);
+	}
+
+	@When("Selecciono origen {string} y destino {string}")
+	public void seleccionoOrigenYDestino(String strOrigen, String strDestino) {
+	    buscarVuelo.ingresarRuta(strOrigen, strDestino);
+	    buscarVuelo.seleccionarFecha();
+	    buscarVuelo.selectPasajeros();
+	}
+
+	@Then("busco los vuelos disponibles con sus precios")
+	public void buscoLosVuelosDisponiblesConSusPrecios() {
+	    
+	}
+	
+}
