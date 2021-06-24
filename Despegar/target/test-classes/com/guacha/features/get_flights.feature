@@ -29,5 +29,5 @@ Feature: Find cheapest flights
     Examples: 
       | city_info               | dates_info              | adult_num | children_num | children_ages |
       | "cartagena-bogota"      | "14/09/2021-14/11/2021" |         3 |            3 | "8,12,16"     |
-      | "medellin-barranquilla" | "26/07/2021-27/07/2021" |         2 |            4 | "4,4,4,4"     |
-      | "medellin-bogota"       | "11/09/2021-21/10/2021" |         1 |            1 | "6"           |
+      | "medellin-barranquilla" | "29/07/2021-30/07/2021" |         2 |            4 | "4,4,4,4"     |
+      | "cartagena-milan"       | "11/09/2021-21/10/2021" |         1 |            1 | "17"          |

@@ -14,7 +14,7 @@ import net.thucydides.core.pages.PageObject;
 public class DespegarTickets extends PageObject{
 	
 	By airlineOptions = By.xpath("//airlines-matrix-airline/ul/li[1]//div[@class='airline-name']/span");
-	By airlineReviews = By.xpath("//review-summary//a/div[1]/div[1]/span");
+	String airlineReviewsSelector = "(//div[@class='review-summary review-text'])[%d]//span[contains(@class, 'rating-text')]";
 	String directPriceSelectorPattern = "(//li[contains(@class, 'priceItem')][1])[%d]//span[@class='amount price-amount']";
 	String layoverSelectorPattern = "(//li[contains(@class, 'last') and contains(@class, 'priceItem')])[%d]//span[@class='amount price-amount']";
 	
@@ -23,8 +23,21 @@ public class DespegarTickets extends PageObject{
 	}
 	
 	public void printTickets() {
+		//TODO: Add scroll
+		//if (Actions.getElements(getDriver(), airlineOptions))
 		List<WebElement> airlines = Actions.getElements(getDriver(), airlineOptions);
-		List<WebElement> ratings = Actions.getElements(getDriver(), airlineReviews);
+		
+		List<WebElement> ratings = new LinkedList<>();
+		for (int i = 1; i <= airlines.size(); i++) {
+			By rating = By.xpath(String.format(airlineReviewsSelector, i));
+			if (Actions.getElements(getDriver(), rating).size() > 0) {
+				ratings.add(Actions.getElements(getDriver(), rating).get(0));
+			} else {
+				ratings.add(null);
+			}
+		}
+		
+		
 		List<WebElement> directPrices = new LinkedList<>();
 		for (int i = 1; i <= airlines.size(); i++) {
 			By direct = By.xpath(String.format(directPriceSelectorPattern, i));
@@ -49,12 +62,16 @@ public class DespegarTickets extends PageObject{
 			System.out.println("\n-------------------------------------------------------------------\n");
 			WebElement airline = airlines.get(i);
 			WebElement airlineRating = ratings.get(i);
-			System.out.println(String.format("Aerolínea: %s (Calificación %s/10)", airline.getText(), airlineRating.getText()));
+			if (airlineRating != null) {
+				System.out.println(String.format("Aerolínea: %s (Calificación %s/10)", airline.getText(), airlineRating.getText()));				
+			} else {
+				System.out.println(String.format("Aerolínea: %s (Calificación no disponible)", airline.getText()));
+			}
 			int directCostValue = Integer.MAX_VALUE;
 			if (directPrices.get(i) != null) {
 				WebElement directCost = directPrices.get(i);
 				directCostValue = Integer.parseInt(directCost.getText().replace(".", ""));
-				System.out.println(String.format("Vuelo directo más barato: $%d", directCostValue));				
+				System.out.println(String.format("Vuelo mas directo posible con el menor precio: $%d", directCostValue));				
 			} else {
 				System.out.println("Actualmente, no hay vuelos directos que cumplan esos parámetros");
 			}
@@ -62,7 +79,7 @@ public class DespegarTickets extends PageObject{
 			if (layoverPrices.get(i) != null) {
 				int layoverCost = Integer.parseInt(layoverPrices.get(i).getText().replace(".", ""));	
 				if (layoverCost < directCostValue) {
-					System.out.println(String.format("Hay un vuelo con 1 escala con menor precio ($%d)", layoverCost));
+					System.out.println(String.format("Hay un vuelo con mas escalas con menor precio ($%d)", layoverCost));
 				}
 			}
 			
