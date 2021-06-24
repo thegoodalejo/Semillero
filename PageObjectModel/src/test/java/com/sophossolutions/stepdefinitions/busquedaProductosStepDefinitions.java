@@ -28,7 +28,6 @@ public class busquedaProductosStepDefinitions {
 	}
 	@Then("Buscar resultados")
 	public void buscarresultados() {
-		//despegarHome.aceptarCambios();
 		despegarHome.buscarResultados();
 	}
 

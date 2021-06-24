@@ -10,9 +10,9 @@ Feature: Buscar vuelo
     Examples:
     
     |origen       |destino            |fecha_ida|fecha_vuelta|numAdultos|numNinos|clase               |
-    |Monteria     |Bogota             |23       |30          |1	        |1,1 años|Primera Clase       |
-    |Bogota       |Medellin           |1        |25          |2	        |1,2 años|Ejecutiva/Business  |
-    |Cali         |Bucaramanga        |2        |3           |3	        |1,3 años|Economica           |
     |San Andres   |Monteria           |13       |27          |1	        |1,4 años|Premium economy     |
+    |Monteria     |Bogota             |23       |30          |2	        |1,1 años|Primera Clase       |
+    |Bogota       |Medellin           |1        |25          |3	        |1,2 años|Ejecutiva/Business  |
+    |Cali         |Bucaramanga        |2        |3           |4	        |1,3 años|Economica           |
     
     

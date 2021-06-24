@@ -19,17 +19,18 @@ public class DespegarHome extends PageObject{
 	By btnOrigen=By.xpath("/html/body/div[3]/div/div[1]/ul/li");
 	By btnDestino=By.xpath("/html/body/div[3]/div/div[1]/ul/li");
 	By btnFechaIda=By.xpath("//input[@placeholder='Ida']");
-	By btnOtros=By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[1]/div[1]/div[4]/div/div/div");
+	By btnOtros=By.xpath("//div/div[2]/div[1]/div[1]/div[4]/div/div/div");
 	By btnSeleccionarFechaIda;//=By.xpath("//*[@id=\"component-modals\"]/div[1]/div[1]/div[2]/div[1]/div[3]/div[29]/div");
 	By btnSeleccionarFechaVuelta;
-	By selClase=By.xpath("//div[@class='sbox5-3-select -lg']//select[@class='select-tag']");
-	By btnMasAdultos=By.xpath("//*[@id='component-modals']/div[3]/div/div/div[1]/div[1]/div[2]/div/button[2]");
+	By selClase=By.xpath("//div[@class='sbox5-3-select-wrapper']");
+	By btnMasAdultos=By.xpath("//*[@id=\"component-modals\"]/div[3]/div/div/div[1]/div[1]/div[2]/div/button[2]");
+	By btnMasNinos=By.xpath("//*[@id=\"component-modals\"]/div[3]/div/div/div[1]/div[2]/div[2]/div/button[2]");
 	By btnEdadMenor=By.xpath("//select[@class='select']");
 	By btnAceptarCambios=By.xpath("//*[@id=\"component-modals\"]/div[3]/div/div/div[3]/a");
 	By btnBusqueda=By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[3]/button");
 	//otros
 	//opciones
-	By opClases=By.xpath("//div[@class='sbox5-3-select -lg']//select[@class='select-tag']//option[@class='select-option']");
+	By opClases=By.xpath("//div[@class='sbox5-3-select-wrapper']//option[@class='select-option']");
 	By opEdad=By.xpath("//select[@class='select']//option[@value]");
 	//By selClase;
 	
@@ -64,23 +65,17 @@ public class DespegarHome extends PageObject{
 	
 	public void seleccionarClase(String strClase) {
 		//selecionar clase
-		//Actions.esperar(getDriver());
-		Actions.presionarBoton(getDriver(),btnOtros);
-		//Actions.esperar(getDriver());
-		Actions.presionarBoton(getDriver(),selClase);
-		//Actions.esperar(getDriver());
-		Actions.seleccionarCabina(getDriver(), selClase, opClases, strClase);
+		Actions.selecciona(getDriver(),btnOtros,selClase,opClases,strClase);
 		aceptarCambios();
-		//Actions.esperar(getDriver());
-		
 	}
 	
 	public void ingresarAdultos(String strCantidad) {
 		Actions.presionarBoton(getDriver(),btnOtros);
+		Actions.presionarBoton(getDriver(),btnOtros);
 		if(strCantidad!="1") {
 			for(int i=1;i<Integer.parseInt(strCantidad);i++) {
 				Actions.presionarBoton(getDriver(),btnMasAdultos);
-				Actions.esperar(getDriver());
+				//Actions.esperar(getDriver());
 			}
 		}
 		aceptarCambios();
@@ -88,18 +83,18 @@ public class DespegarHome extends PageObject{
 	
 	public void ingresarNinos(String strCantidad) {
 		Actions.presionarBoton(getDriver(),btnOtros);
+		Actions.presionarBoton(getDriver(),btnOtros);
 		if(strCantidad!="0") {
 			for(int i=0;i<Integer.parseInt(strCantidad);i++) {
-				Actions.presionarBoton(getDriver(),btnMasAdultos);
-				Actions.esperar(getDriver());
+				Actions.presionarBoton(getDriver(),btnMasNinos);
 			}
 		}
 		aceptarCambios();
 	}
 	public void ingresarEdadNinos(String strEdad) {
 		Actions.presionarBoton(getDriver(),btnOtros);
+		Actions.presionarBoton(getDriver(),btnOtros);
 		Actions.seleccionarCabina(getDriver(), selClase, opEdad, strEdad);
-		Actions.esperar(getDriver());
 		aceptarCambios();
 	}
 	public void aceptarCambios() {

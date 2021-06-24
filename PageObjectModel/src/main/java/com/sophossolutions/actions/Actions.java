@@ -59,6 +59,20 @@ public class Actions {
 		myBrowser.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		
 	}
+
+
+
+	public static void selecciona(WebDriver driver, By btnOtros, By selClase, By opClases, String strClase) {
+		presionarBoton(driver,btnOtros);
+		presionarBoton(driver,btnOtros);
+		presionarBoton(driver,selClase);
+		presionarBoton(driver,selClase);
+		seleccionarCabina(driver, selClase, opClases, strClase);
+		
+	}
+	public static void imprimiResultados() {
+		
+	}
 	
 
 }
