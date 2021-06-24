@@ -1,0 +1,7 @@
+/target/
+/.gitignore
+/.project
+/.settings/
+/pom.xml
+/serenity.properties
+/src/

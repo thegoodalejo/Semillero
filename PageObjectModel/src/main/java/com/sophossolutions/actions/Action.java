@@ -6,10 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Action {
-
 	public static void navegateToUrl(WebDriver myBrowser, String url) {
 		myBrowser.navigate().to(url);
 	}
+<<<<<<< HEAD
 
 	public static int countElements(WebDriver myBrowser, By target) {
 		if (myBrowser.findElements(target).size() > 0)
@@ -27,6 +27,23 @@ public class Action {
 		if (myBrowser.findElements(target).size() > 0) {
 			myBrowser.findElement(target).click();
 		}
+=======
+	
+	public static void login(
+			WebDriver myBrowser,
+			By userName, By password, By btnLogin,
+			String strUserName, String strPassword) {
+		myBrowser.findElement(userName).sendKeys(strUserName);
+		myBrowser.findElement(password).sendKeys(strPassword);
+		myBrowser.findElement(btnLogin).click();
+	}
+
+	public static void validateText(WebDriver driver, By txtHome, String strTextHome) {
+		String txtActual = driver.findElement(txtHome).getText();
+		assertEquals("El valor esperado es \"" + strTextHome + 
+				     "\" es diferente al texto actual: \"" + txtActual +"\"",
+				     strTextHome, txtActual);
+>>>>>>> 34ed9efcb134bafe357379acd9dc79b6c082ec90
 	}
 	
 	public static void getElementText(WebDriver myBrowser, By target) {

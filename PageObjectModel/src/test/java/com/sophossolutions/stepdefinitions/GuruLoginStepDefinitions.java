@@ -1,5 +1,6 @@
 package com.sophossolutions.stepdefinitions;
 
+<<<<<<< HEAD
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -9,6 +10,11 @@ import org.openqa.selenium.WebElement;
 import com.sophossolutions.actions.Action;
 import com.sophossolutions.pages.GuroLogin;
 import com.sophossolutions.pages.GuruHome;
+=======
+import com.sophossolutions.pages.GuruHome;
+import com.sophossolutions.pages.GuruLogin;
+
+>>>>>>> 34ed9efcb134bafe357379acd9dc79b6c082ec90
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,6 +22,7 @@ import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Managed;
 
 public class GuruLoginStepDefinitions {
+<<<<<<< HEAD
 
 	GuroLogin loginGuru;
 	GuruHome homeGuru;
@@ -150,6 +157,32 @@ public class GuruLoginStepDefinitions {
 	public void validoQueElTituloSea(String strTitle) {
 		System.out.println("@Then");
 		homeGuru.validateTitle(strTitle);
+=======
+	
+	GuruLogin guruLogin;
+	GuruHome guruHome;
+	@Given("Deseo ir a la pagina de {string}")
+	public void deseoIrALaPaginaDe(String url) {
+		System.out.println("@Given");
+		guruLogin.navegateTo(url);
+		//login.open();
 	}
 
+	@When("Ingreso el nombre de usuario {string} y password {string}")
+	public void ingresoElNombreDeUsuarioYPassword(String strUser, String strPassword) {
+		System.out.println("@When");
+		guruLogin.login(strUser, strPassword);
+		
+	}
+
+	@Then("Valido que el titulo sea {string}")
+	public void validoQueElTituloSea(String textHome) {
+	    System.out.println("@Then");
+	    guruHome.validateText(textHome);
+>>>>>>> 34ed9efcb134bafe357379acd9dc79b6c082ec90
+	}
+
+
 }
+
+
