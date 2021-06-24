@@ -87,9 +87,10 @@ public class ActionsDespegar {
 		
 			
 		    List<WebElement> clases=driver.findElements(strPrecios);
+		    
 		    for (WebElement model : clases) {
-		    	
-		    	 	
+		    			    	  		
+		    
 	            System.out.println("Precios: " + model.getText());
 	        }
 		
