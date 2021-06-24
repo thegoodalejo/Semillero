@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Buscar un vuelo economico" skipped="0" tests="1" time="12.72" timestamp="2021-06-24 08:26:17"><testcase name="Busqueda vuelo mas economico por empresa"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class='ac-group-items']//li//span&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.BLA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7771019b5c99654fec17864de3480338&#10;*** Element info: {Using=xpath, value=//ul[@class='ac-group-items']//li//span}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='ac-group-items']//li//span"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.BLA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7771019b5c99654fec17864de3480338
+*** Element info: {Using=xpath, value=//ul[@class='ac-group-items']//li//span}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='ac-group-items']//li//span"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\JUAN~1.BLA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7771019b5c99654fec17864de3480338
+*** Element info: {Using=xpath, value=//ul[@class='ac-group-items']//li//span}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG1097QPX', ip: '192.168.100.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown&#13;
+com.despegar.actions.Action.clickInObject(Action.java:18)&#13;
+com.despegar.pages.DespegarHome.writeFromCity(DespegarHome.java:31)&#13;
+com.despegar.stepdefinitions.DespegarSearchStepDefinitions.paraViajarDesdeHasta(DespegarSearchStepDefinitions.java:22)&#13;
+✽.para viajar desde Bucaramanga hasta Bogota(file:///C:/Users/juan.blanco/Documents/semilleroTesting/Semillero/EjercicioDespegar/src/test/resources/com/despegar/features/despegar_search.feature:6)&#13;
+</system-err></testcase></testsuite>
