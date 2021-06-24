@@ -13,5 +13,5 @@ Feature: Buscar vuelos economicos
       | origen        | destino    | edad     | clase                | ida | regreso |
       | "Cali"        | "Medellín" | "3 años" | "Premium economy"    |  24 |      25 |
  #     | "Bucaramanga" | "Bogot"    | "6 años" | "Ejecutiva/business" |  25 |      26 |
- #    | "Pasto"       | "Medellín" | "7 años" | "Primera Clase"      |  26 |      27 |
+ #     | "Pasto"       | "Medellín" | "7 años" | "Primera Clase"      |  26 |      27 |
  #     | "Pasto"       | "Cali"     | "7 años" | "Economica"          |  27 |      28 |

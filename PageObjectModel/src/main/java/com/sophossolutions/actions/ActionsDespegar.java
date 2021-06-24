@@ -38,18 +38,24 @@ public class ActionsDespegar {
 		
 
 	}
-	public static void selecionarNiños(WebDriver driver, String strEdad, By btnOpciones, By btnMenores) {
+	public static void selecionarNiños(WebDriver driver, String strEdad, By btnOpciones, By btnMenores, By btnDesplegarOpciones, By btnOpcionesEdad, By btnAplicarTipo) {
 		
 		driver.findElement(btnOpciones).click();
 		driver.findElement(btnOpciones).click();
 		driver.findElement(btnMenores).click();
-	}
-	public static void seleccionarClase(WebDriver driver, String strEdad, By btnOpciones, By btnMenores) {
 		
-		driver.findElement(btnOpciones).click();
-		driver.findElement(btnOpciones).click();
-		driver.findElement(btnMenores).click();
+		WebElement niño=driver.findElement(btnDesplegarOpciones);
+        List<WebElement> niños=niño.findElements(btnOpcionesEdad);
+       
+        for(WebElement option:niños) {
+            if(strEdad.equals(option.getText())) {
+                option.click();
+                break;
+            }
+        }
+        driver.findElement(btnAplicarTipo).click(); 
 	}
+	
 
 
 	public static void selecionarClase(WebDriver driver, By btnOpciones, By btnSeleccionarClase, By btnMenuTipo, String strTipo, By btnAplicarTipo) {
@@ -57,10 +63,10 @@ public class ActionsDespegar {
 		driver.findElement(btnOpciones).click();
 		driver.findElement(btnOpciones).click();
 		
-		    WebElement cabina=driver.findElement(btnMenuTipo);
-	        List<WebElement> cabinas=cabina.findElements(btnSeleccionarClase);
+		    WebElement clase=driver.findElement(btnMenuTipo);
+	        List<WebElement> clases=clase.findElements(btnSeleccionarClase);
 	       
-	        for(WebElement option:cabinas) {
+	        for(WebElement option:clases) {
 	            if(strTipo.equals(option.getText())) {
 	                option.click();
 	                break;

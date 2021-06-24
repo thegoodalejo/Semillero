@@ -26,6 +26,9 @@ public class DespegarHome extends PageObject{
 	//Selecionar Niños
 	By btnOpciones=  By.xpath("//div/div[2]/div[1]/div[1]/div[4]/div/div/div");
 	By btnMenores=  By.xpath("//*[@id=\"component-modals\"]/div[3]/div/div/div[1]/div[2]/div[2]/div/button[2]");
+	By btnDesplegarOpciones=  By.xpath("//select[@class='select']");
+	By btnOpcionesEdad=  By.xpath("//select[@class='select']//option[@value]");
+	//*[@id="component-modals"]/div[3]/div/div/div[1]/div[3]/div[2]/div/div/select
 	
 	//Selecionar Clase
 	By btnSeleccionarClase=  By.xpath("//div[@class='sbox5-3-select -lg']//select[@class='select-tag']//option[@class='select-option']");
@@ -47,7 +50,7 @@ public class DespegarHome extends PageObject{
 	}
 	public void seleccionarNiños(String strEdad) {
 		
-		//ActionsDespegar.selecionarNiños(getDriver(), strEdad, btnOpciones, btnMenores);
+		ActionsDespegar.selecionarNiños(getDriver(), strEdad, btnOpciones, btnMenores, btnDesplegarOpciones, btnOpcionesEdad,btnAplicarTipo);
 	}
 
 	public void seleccionarClase(String strTipo) {
