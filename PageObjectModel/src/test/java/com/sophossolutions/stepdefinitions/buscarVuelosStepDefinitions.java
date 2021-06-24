@@ -9,6 +9,7 @@ import io.cucumber.java.en.When;
 public class buscarVuelosStepDefinitions {
 	
 	DespegarHome busquedaHome; 
+	DespegarBusqueda listaVuelos; 
 	
 	@Given("Quiero acceder a la pagina {string}")
 	public void quieroAccederALaPagina(String strUrl) {
@@ -36,7 +37,7 @@ public class buscarVuelosStepDefinitions {
 	}
 	@Then("Espero Listar vuelos economicos")
 	public void esperoListarVuelosEconomicos() {
-
+		listaVuelos.vuelosEconomicos();
 	}
 
 }

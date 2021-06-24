@@ -61,8 +61,9 @@ public class DespegarHome extends PageObject{
 		
 		 
 		ActionsDespegar.selecionarClase(getDriver(), btnOpciones, btnSeleccionarClase, btnMenuTipo, strTipo, btnAplicarTipo);
-		ActionsDespegar.Buscar(getDriver(), btnBuscarVuelo);
-        
+    	ActionsDespegar.Buscar(getDriver(), btnBuscarVuelo);
+	//	String tituloProducto = drive.findElement(target).getText();
+	//	System.out.println("Vuelos mas economicos : ");
 	    }
 }
 

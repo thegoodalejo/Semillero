@@ -78,12 +78,23 @@ public class ActionsDespegar {
 
 	public static void Buscar(WebDriver driver, By btnBuscarVuelo) {
 		driver.findElement(btnBuscarVuelo).click(); 
-        //driver.manage().wait(2000);
-		
-		
+       
 	}
-}
-	
-	
 
+	public static void vuelosPorAerolinea(WebDriver driver, By barraOrigen, By strPrecios) {
+		//driver.findElement(barraOrigen).click();
+		
+		
+			
+		    List<WebElement> clases=driver.findElements(strPrecios);
+		    for (WebElement model : clases) {
+		    	
+		    	 	
+	            System.out.println("Precios: " + model.getText());
+	        }
+		
+			
+		
+	}	
+}
 
