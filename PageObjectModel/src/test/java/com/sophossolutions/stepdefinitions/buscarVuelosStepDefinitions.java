@@ -22,18 +22,17 @@ public class buscarVuelosStepDefinitions {
 	    busquedaHome.buscar(strOrigen, strDestino);
 	}
 		
+	@When("Enviar fecha de {int} y Fecha de {int}")
+	public void enviarFechaDeYFechaDe(Integer ida, Integer regreso) {
+		busquedaHome.selecionarFecha( ida, regreso);
 	   
-	
-	@When("Enviar fecha de Ida y Fecha de Vuelta")
-	public void enviarFechaDeIdaYFechaDeVuelta() {
-		busquedaHome.selecionarFecha();
-	    	   
-	}
+	}   
 	
 	@When("Enviar edad del niño {string} y tipo {string}")
 	public void enviarEdadDelNiñoYTipo(String strEdad, String strTipo) {
 	    // Write code here that turns the phrase above into concrete actions
-	    
+		busquedaHome.seleccionarNiños(strEdad);
+		busquedaHome.seleccionarClase(strTipo);
 	}
 	@Then("Espero Listar vuelos economicos")
 	public void esperoListarVuelosEconomicos() {
