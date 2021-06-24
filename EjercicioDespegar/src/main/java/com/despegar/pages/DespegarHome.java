@@ -6,13 +6,13 @@ import com.despegar.actions.Action;
 import net.serenitybdd.core.pages.PageObject;
 
 public class DespegarHome extends PageObject {
-	
-	
+		
 	String txtPathItemCity = "//ul[@class='ac-group-items']//li[1]//span";
-	String dateFormat = "//div[@class='sbox5-floating-tooltip sbox5-floating-tooltip-opened']//div[@data-component='datepicker']//div[@class='sbox5-monthgrid-datenumber'][%s]";
-	String menuBtnsPassengers = "//div[@class='stepper__room__row'][%s]";
-	String selectButton = "//button[@class='steppers-icon-%s stepper__icon']";
-	String selectEdad = "//select[@class='select']//option[@value='%s']";
+	String txtDateFormat = "//div[@class='sbox5-floating-tooltip sbox5-floating-tooltip-opened']//div[@data-component='datepicker']//div[@class='sbox5-monthgrid-datenumber'][%s]";
+	String txtMenuBtnsPassengers = "//div[@class='stepper__room__row'][%s]";
+	String txtSelectButton = "//button[@class='steppers-icon-%s stepper__icon']";
+	String txtBtnSelectEdad = "//select[@class='select']";
+	String txtSelectEdad = "//option[@value='%s']";
 	
 	By editTextFrom = By.xpath("//div[@class='sbox5-segment--2_IQ3' and .//span[text()='Tramo 1']]//input[@placeholder='Ingresa desde dónde viajas']");
 	By editTextTo = By.xpath("//div[@class='sbox5-segment--2_IQ3' and .//span[text()='Tramo 1']]//div[@class='sbox-places-destination--1xd0k sbox-places-origin-destination--1I6U9 show-dotted-line--1lOfj']//input");
@@ -20,7 +20,7 @@ public class DespegarHome extends PageObject {
 	By calendarIni = By.xpath("//div[@class='sbox5-segment--2_IQ3' and .//span[text()='Tramo 1']]//input[@placeholder='Ida']");
 	By calendarEnd = By.xpath("//div[@class='sbox5-segment--2_IQ3' and .//span[text()='Tramo 1']]//input[@placeholder='Vuelta']");
 	By selectPassenger = By.xpath("//div[@class='sbox5-segment--2_IQ3']//div[@class='sbox5-distribution-passengers--dbiHH']//input[@type='text']");
-	By btnConfirmPassengers = By.xpath("//div[@class='stepper__room__footer ']//em");
+	By btnConfirmPassengers = By.xpath("//div[@class='stepper__room__footer ']//em[@class='btn-text']");
 	
 	public void navegateTo(String url) {
 		Action.navegateToUrl(getDriver(), url);
@@ -42,41 +42,46 @@ public class DespegarHome extends PageObject {
 
 	public void writeDateIni() {
 		Action.clickInObject(getDriver(), calendarIni);
-		Action.clickInObject(getDriver(), calendarEnd);
-		Action.clickInObject(getDriver(), calendarIni);
-		Action.clickInObject(getDriver(), By.xpath( String.format(dateFormat,"1")) );
+		By calendarDays = By.xpath( String.format(txtDateFormat,"2"));
+		Action.waitForElement(getDriver(), calendarDays, 10);
+		Action.clickInObject(getDriver(),  calendarDays);
 	}
 
 	public void writeDateEnd() {
 		Action.clickInObject(getDriver(), calendarEnd);
-		Action.clickInObject(getDriver(), calendarIni);
-		Action.clickInObject(getDriver(), calendarEnd);
-		Action.clickInObject(getDriver(), By.xpath( String.format(dateFormat,"8")) );
-		
+		By calendarDays = By.xpath( String.format(txtDateFormat,"3"));
+		Action.waitForElement(getDriver(), calendarDays, 10);
+		Action.clickInObject(getDriver(),  calendarDays);
 	}
 
-	public void selectPassengers(int numAdults, int numChilds) {
+	public void selectPassengers(int numAdults, int numChilds, String listAges) {
 		Action.clickInObject(getDriver(), selectPassenger);
 		Action.clickInObject(getDriver(), selectPassenger);
-		if (numAdults <= 0) numAdults = 1;
-		for (int i = 1; i < numAdults; i++) {
-			Action.clickInObject(getDriver(), By.xpath(
-					String.format(menuBtnsPassengers, "1") +
-					String.format(selectButton, "right")
-			));
+		Action.waitForElement(getDriver(), selectPassenger, 1);
+		String[] boysAges = listAges.split(",");		
+		if( boysAges.length == numChilds ) {
+			if (numAdults < 1) numAdults = 1;
+			else numAdults--;
+			this.addPerson(numAdults, "1");			
+			this.addPerson(numChilds, "2");
+			this.addAges(boysAges);
+			Action.clickInObject(getDriver(), btnConfirmPassengers);
 		}
-		for (int i = 1; i <= numChilds; i++) {
-			Action.clickInObject(getDriver(), By.xpath(
-					String.format(menuBtnsPassengers, "2") +
-					String.format(selectButton, "right")
-			));
-			Action.clickInObject(getDriver(), By.xpath(
-					String.format(menuBtnsPassengers, Integer.toString(i+2)) +
-					String.format(selectEdad, Integer.toString(i))
-		    ));
+	}
+	
+	public void addPerson(int numPerson, String type) {
+		for (int i = 1; i <= numPerson; i++) {
+			String txtMenuBtnAux = String.format(txtMenuBtnsPassengers, type) + String.format(txtSelectButton, "right");
+			Action.clickInObject(getDriver(), By.xpath(txtMenuBtnAux) );
 		}
-		Action.clickInObject(getDriver(), btnConfirmPassengers);
-		
+	}
+	private void addAges(String[] listChildsAges) {
+		for (int i = 0; i < listChildsAges.length; i++) {
+			int edad = Integer.parseInt(listChildsAges[i]);
+			String txtBtnSelectAux = String.format(txtMenuBtnsPassengers,  Integer.toString(i+3) ) + txtBtnSelectEdad;
+			Action.clickInObject(getDriver(), By.xpath(txtBtnSelectAux));
+			Action.clickInObject(getDriver(), By.xpath(txtBtnSelectAux + String.format(txtSelectEdad, edad)));
+		}	
 	}
 
 }

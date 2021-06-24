@@ -23,13 +23,16 @@ public class DespegarSearchStepDefinitions {
 		despegarHome.writeToCity(strToCity);
 		despegarHome.writeDateIni();
 		despegarHome.writeDateEnd();
-		despegarHome.selectPassengers(2, 2);
+	}
+	
+	@When("cotizar un viaje con (.+) adultos, (.+) niños de edades (.+)$")
+	public void cotizarUnViajeConAdultosNiñosDeEdades(int nAdults, int nBoys, String listAges) {
+		despegarHome.selectPassengers(nAdults, nBoys, listAges);
 		despegarHome.searchTravel();
 	}
 	
 	@Then("verificando los precios menores")
 	public void verificandoLosPreciosMenores() {
-		despegarResult.scrollDown();
 		despegarResult.showListPrecios();
 	}
 }

@@ -8,16 +8,21 @@ import org.openqa.selenium.WebElement;
 
 public class DespegarResult extends PageObject {
 	
-	String xpathPrices =  "//p[@class='item-fare fare-price']//span[@class='amount price-amount']";
-	String xpathAirlines = "//span[@class='sub-cluster last']//route[@class='-last-route']//span[@class='name']";
+	String xpathPrices =  "//div[@class='matrix-airlines-container matrix-airlines-container-2']//ul//span[@class='amount price-amount']";
+	String xpathAirlines = "//div[@class='matrix-airlines-container matrix-airlines-container-2']//ul//span[@data-sfa-id]";
 	
 	public void scrollDown() {
 		Action.scrollDown(getDriver());
 	}
 
 	public void showListPrecios() {
-		List<WebElement> listArilines = getDriver().findElements(By.xpath(xpathAirlines));
-		List<WebElement> listPrices   = getDriver().findElements(By.xpath(xpathPrices));
+		
+		By ObjAriLines = By.xpath(xpathAirlines);
+		By ObjPrices = By.xpath(xpathPrices);
+		Action.waitForElement(getDriver(), ObjAriLines, 30);
+		Action.waitForElement(getDriver(), ObjPrices, 30);
+		List<WebElement> listArilines = getDriver().findElements(ObjAriLines);
+		List<WebElement> listPrices   = getDriver().findElements(ObjPrices);
 		// Print list
 		
 		for(WebElement AirLine: listArilines) {
@@ -27,6 +32,7 @@ public class DespegarResult extends PageObject {
 		for(WebElement Price: listPrices) {
 			System.out.println(Price.getText());
 		}
+		/*
 		if( listArilines.size() == listPrices.size()) {
 			int tamList = listArilines.size(), indMenor = 0;
 			float menor = Float.parseFloat(listPrices.get(indMenor).getText().replace(".", ""));
@@ -42,7 +48,7 @@ public class DespegarResult extends PageObject {
 					" con su precio: " + Float.parseFloat(listPrices.get(indMenor).getText().replace(".", ""))
 					);
 		}
-		
+		*/
 	}
 
 }

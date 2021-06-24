@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-06-2021 10:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-06-2021 18:17</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Busqueda vuelo mas economico por empresa
+                                <span class="error-color">Busqueda vuelo mas economico por empresa
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -204,34 +204,60 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given Quiero ir a la pagina "https://www.despegar.com.co"<br>When para viajar desde &lt;targetOrigen&gt; hasta &lt;targetDestino&gt;<br>Then verificando los precios menores</div>
+        <div class="scenario">Given Quiero ir a la pagina "https://www.despegar.com.co"<br>When para viajar desde &lt;targetOrigen&gt; hasta &lt;targetDestino&gt;<br>And cotizar un viaje con &lt;numAdultos&gt; adultos, &lt;numJov&gt; niños de edades &lt;listAges&gt;<br>Then verificando los precios menores</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//div[@class='matrix-airlines-container matrix-airlines-container-2']//ul//span[@data-sfa-id]'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.despegar.actions.Action.waitForElement(Action.java:35)<br />com.despegar.pages.DespegarResult.showListPrecios(DespegarResult.java:23)<br />com.despegar.stepdefinitions.DespegarSearchStepDefinitions.verificandoLosPreciosMenores(DespegarSearchStepDefinitions.java:36)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:66)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4409519934801884587.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="2bbe813d1f4ac1e7c90c2cadf49b8663b94f3ba5ce4d49f3a42ddc6fb300a8aa.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin}" width="1366"/>
-                <img src="2bbe813d1f4ac1e7c90c2cadf49b8663b94f3ba5ce4d49f3a42ddc6fb300a8aa.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="2bbe813d1f4ac1e7c90c2cadf49b8663b94f3ba5ce4d49f3a42ddc6fb300a8aa.png" title=" When para viajar desde Bucaramanga hasta Medellin" width="1366"/>
-                <img src="457300bf99547aa71e4f4c69495fee0267e1229e3773635c1affbbb116acfad6.png" title=" When para viajar desde Bucaramanga hasta Medellin (completed)" width="1366"/>
-                <img src="457300bf99547aa71e4f4c69495fee0267e1229e3773635c1affbbb116acfad6.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="a05c839dceee6f0313e0f316b6538de96536e057948ee75447d84b7d076d0637.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="a05c839dceee6f0313e0f316b6538de96536e057948ee75447d84b7d076d0637.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin} (completed)" width="1366"/>
-                <img src="f623573b3587fc7034f9ccf2e5462b5a4cd8164e161d3c7b78f5a329346aa1f7.png" title=" Example: {targetOrigen=Cali, targetDestino=Bogota}" width="1366"/>
-                <img src="f623573b3587fc7034f9ccf2e5462b5a4cd8164e161d3c7b78f5a329346aa1f7.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="f623573b3587fc7034f9ccf2e5462b5a4cd8164e161d3c7b78f5a329346aa1f7.png" title=" When para viajar desde Cali hasta Bogota" width="1366"/>
-                <img src="a0f976876d7e1223105492d6d8c98c37b219000f3d3613075570ef85fca4ac02.png" title=" When para viajar desde Cali hasta Bogota (completed)" width="1366"/>
-                <img src="a0f976876d7e1223105492d6d8c98c37b219000f3d3613075570ef85fca4ac02.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="27610dd18491dc44348a40f258e8c4a3acad0e3c74f29009226a64f9ea52eef4.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="27610dd18491dc44348a40f258e8c4a3acad0e3c74f29009226a64f9ea52eef4.png" title=" Example: {targetOrigen=Cali, targetDestino=Bogota} (completed)" width="1366"/>
-                <img src="507150d028ef3f7f6674e9c38fb08348d58c9e138ccdad81a9407e40810ada6b.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga}" width="1366"/>
-                <img src="507150d028ef3f7f6674e9c38fb08348d58c9e138ccdad81a9407e40810ada6b.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="507150d028ef3f7f6674e9c38fb08348d58c9e138ccdad81a9407e40810ada6b.png" title=" When para viajar desde Medellin hasta Bucaramanga" width="1366"/>
-                <img src="1a24b534200af30ead4b495a501a1b6556824e6e7520e4ea93b1056784fd5d19.png" title=" When para viajar desde Medellin hasta Bucaramanga (completed)" width="1366"/>
-                <img src="1a24b534200af30ead4b495a501a1b6556824e6e7520e4ea93b1056784fd5d19.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="78b9e6d726eb9b25c0d7eae32a2edc7113f4208f4ff9c71456118ba4af3d2af9.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="78b9e6d726eb9b25c0d7eae32a2edc7113f4208f4ff9c71456118ba4af3d2af9.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="9e19832a248af2ff747c69ffa5f86e9a64142e18fb73959f42c3efd08d66c939.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin, numAdultos=3, numJov=2, listAges=2,4}" width="1366"/>
+                <img src="9e19832a248af2ff747c69ffa5f86e9a64142e18fb73959f42c3efd08d66c939.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
+                <img src="9e19832a248af2ff747c69ffa5f86e9a64142e18fb73959f42c3efd08d66c939.png" title=" When para viajar desde Bucaramanga hasta Medellin" width="1366"/>
+                <img src="8a353dac7986e52dfced15c8dc1bc521c81595f732067b997cc75d48bc950639.png" title=" When para viajar desde Bucaramanga hasta Medellin (completed)" width="1366"/>
+                <img src="8a353dac7986e52dfced15c8dc1bc521c81595f732067b997cc75d48bc950639.png" title=" And cotizar un viaje con 3 adultos, 2 ni&ntilde;os de edades 2,4" width="1366"/>
+                <img src="2b20fbed1af287402a692d5e668075f56e2aa266553f23bf5a685526b7f8c31e.png" title=" And cotizar un viaje con 3 adultos, 2 ni&ntilde;os de edades 2,4 (completed)" width="1366"/>
+                <img src="2b20fbed1af287402a692d5e668075f56e2aa266553f23bf5a685526b7f8c31e.png" title=" Then verificando los precios menores" width="1366"/>
+                <img src="27adb3b6bf324dbd6214a57eb9e634041641c51ad021710bed800357bd4b71f7.png" title=" Then verificando los precios menores (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
