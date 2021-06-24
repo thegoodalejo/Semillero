@@ -1,0 +1,25 @@
+package com.sophossolutions.stepdefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class AmazonP1StepDefinitions {
+
+	@Given("Deseo ir a la pagina de {string}")
+	public void deseoIrALaPaginaDe(String string) {
+		amazonP2.open();
+	}
+
+	@When("Ingreso el producto {string}")
+	public void ingresoElProducto(String string) {
+	    amazonP2.Buscar(string);
+	}
+
+	@Then("Imprimo los tres articulos con sus precios")
+	public void imprimoLosTresArticulosConSusPrecios() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+}

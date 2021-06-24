@@ -1,28 +1,48 @@
 package com.sophossolutions.actions;
 
+import java.lang.reflect.InvocationTargetException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Action {
 	 
 	//Buscar
-	public static void Buscar(WebDriver myBrowser, By textoBusqueda, By btnBuscar, String texto) {
-		myBrowser.findElement(textoBusqueda).sendKeys(texto);
-		myBrowser.findElement(btnBuscar).click();
+	public static void Buscar(WebDriver myBrowser, By strstrTextoBusqueda, By byBtnBuscar, String strTexto) {
+		myBrowser.findElement(strstrTextoBusqueda).sendKeys(strTexto);
+		myBrowser.findElement(byBtnBuscar).click();
 	}
 	
 	
 	//Validar Resultados
 	public static void imprimirTexto(WebDriver driver, 
-			 By nombreP1, By nombreP2, By nombreP3, By precioP1, By precioP2, By precioP3) {
-			 
-			String textoP1 = "nombre: "+ driver.findElement(nombreP1).getText()+ "precio: "+ driver.findElement(precioP1).getText();
-			String textoP2 = "nombre: "+ driver.findElement(nombreP2).getText()+ "precio: "+ driver.findElement(precioP2).getText();
-			String textoP3 = "nombre: "+ driver.findElement(nombreP1).getText()+ "precio: "+ driver.findElement(precioP3).getText();
+			 By strNombreP1, By strNombreP2, By strNombreP3, By strPrecioP1, By strPrecioP2, By strPrecioP3) {
 			
-			System.out.println(textoP1);
-			System.out.println(textoP2);
-			System.out.println(textoP3);
+			String strTextoP1 = validarTexto(driver, strNombreP1, strPrecioP1);
+			String strTextoP2 = validarTexto(driver, strNombreP2, strPrecioP2);
+			String strTextoP3 = validarTexto(driver, strNombreP3, strPrecioP3);
+			
+			System.out.println(strTextoP1);
+			System.out.println(strTextoP2);
+			System.out.println(strTextoP3);
+	}
+	
+	//Valida que el elemento tenga precio
+	public static String validarTexto(WebDriver driver,By strNombre,By strPrecio) {
+		
+		String strRetorno;
+			
+			Boolean existeElemento = driver.findElements(strPrecio).size() != 0;
+			
+			if(existeElemento) {
+				strRetorno= "nombre: "+ driver.findElement(strNombre).getText() + ", precio: "+ driver.findElement(strPrecio).getText();
+			}
+			else {
+				strRetorno= "nombre: "+ driver.findElement(strNombre).getText() + ", el elemento no tiene precio";
+			}
+			
+		
+		return strRetorno;
 	}
 	
 

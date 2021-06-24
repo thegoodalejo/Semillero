@@ -1,0 +1,48 @@
+package com.sophossolutions.actions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+	 
+	//Buscar
+	public static void Buscar(WebDriver myBrowser, By strstrTextoBusqueda, By byBtnBuscar, String strTexto) {
+		myBrowser.findElement(strstrTextoBusqueda).sendKeys(strTexto);
+		myBrowser.findElement(byBtnBuscar).click();
+	}
+	
+	
+	//Validar Resultados
+	public static void imprimirTexto(WebDriver driver, 
+			 By strNombreP1, By strNombreP2, By strNombreP3, By strprecioP1, By strprecioP2, By strprecioP3) {
+			
+			String strTextoP1 = validarTexto(driver, strNombreP1);
+			String strTextoP2 = validarTexto(driver, strNombreP2);
+			String strTextoP3 = validarTexto(driver, strNombreP3);
+			
+			System.out.println(strTextoP1);
+			System.out.println(strTextoP2);
+			System.out.println(strTextoP3);
+	}
+	
+	//Valida que el elemento tenga precio
+	public static String validarTexto(WebDriver driver,By strNombre) {
+		
+		String strRetorno;
+		driver.findElement(strNombre).getText();
+		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+		boolean statusVacio = driver.findElements(strNombre).size() ==0;
+		
+		if(statusVacio) {
+			strRetorno= "nombre: "+ driver.findElement(strNombre).getText() + ", el elemento no tiene precio";
+		}
+		else {
+			strRetorno= "nombre: "+ driver.findElement(strNombre).getText() + ", precio"+ driver.findElement(strNombre).getText();
+		}
+		return strRetorno;
+	}
+	
+
+}

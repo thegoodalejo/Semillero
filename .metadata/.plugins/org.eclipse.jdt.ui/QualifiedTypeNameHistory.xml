@@ -2,7 +2,10 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
     <fullyQualifiedTypeName name="com.sophossolutions.actions.Action"/>
-    <fullyQualifiedTypeName name="net.thucydides.core.pages.PageObject"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
     <fullyQualifiedTypeName name="com.sophossolutions.pages.AmazonP1"/>
+    <fullyQualifiedTypeName name="net.thucydides.core.pages.PageObject"/>
+    <fullyQualifiedTypeName name="net.thucydides.core.annotations.DefaultUrl"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 </qualifiedTypeNameHistroy>

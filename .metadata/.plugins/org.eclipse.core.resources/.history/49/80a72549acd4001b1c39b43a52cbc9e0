@@ -1,0 +1,54 @@
+package com.sophossolutions.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+	 
+	//Buscar
+	public static void Buscar(WebDriver myBrowser, By strstrTextoBusqueda, By byBtnBuscar, String strTexto) {
+		myBrowser.findElement(strstrTextoBusqueda).sendKeys(strTexto);
+		myBrowser.findElement(byBtnBuscar).click();
+	}
+	
+	
+	//Validar Resultados
+	public static void imprimirTexto(WebDriver driver, 
+			 By strNombreP1, By strNombreP2, By strNombreP3, By strprecioP1, By strprecioP2, By strprecioP3) {
+			
+			String strTextoP1, strTextoP2, strTextoP3;
+			
+			/*//Texto Resultado Uno
+			if(driver.findElement(strprecioP1).getS) {
+				strTextoP1 = "nombre: "+ driver.findElement(strNombreP1).getText() + "El elemento no tiene precio";
+			}
+			else
+			{
+				strTextoP1 = "nombre: "+ driver.findElement(strNombreP1).getText() + driver.findElement(strprecioP1).getText();
+			}
+			
+			//Texto Resultado Dos
+			if(driver.findElement(strprecioP2).getText()== "") {
+				strTextoP2 = "nombre: "+ driver.findElement(strNombreP2).getText() + "El elemento no tiene precio";
+			}
+			else
+			{
+				strTextoP2 = "nombre: "+ driver.findElement(strNombreP2).getText() + driver.findElement(strprecioP2).getText();
+			}
+			
+			//Texto Resultado Tres
+			if(driver.findElement(strprecioP3).getText()== "") {
+				strTextoP3 = "nombre: "+ driver.findElement(strNombreP3).getText() + "El elemento no tiene precio";
+			}
+			else
+			{
+				strTextoP3 = "nombre: "+ driver.findElement(strNombreP3).getText() + driver.findElement(strprecioP3).getText();
+			}*/
+			
+			System.out.println(strTextoP1);
+			System.out.println(strTextoP2);
+			System.out.println(strTextoP3);
+	}
+	
+
+}

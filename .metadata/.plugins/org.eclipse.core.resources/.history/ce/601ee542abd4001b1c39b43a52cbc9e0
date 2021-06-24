@@ -1,0 +1,39 @@
+package com.sophossolutions.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Action {
+	 
+	//Buscar
+	public static void Buscar(WebDriver myBrowser, By strstrTextoBusqueda, By byBtnBuscar, String strTexto) {
+		myBrowser.findElement(strstrTextoBusqueda).sendKeys(strTexto);
+		myBrowser.findElement(byBtnBuscar).click();
+	}
+	
+	
+	//Validar Resultados
+	public static void imprimirTexto(WebDriver driver, 
+			 By strNombreP1, By strNombreP2, By strNombreP3, By strprecioP1, By strprecioP2, By strprecioP3) {
+			
+			String strPrecioP1,strPrecioP2,strPrecioP3;
+			
+			if(driver.findElement(strprecioP1).getText()== "") {
+				precio= "El elemento no tiene precio";
+			}
+			else
+			{
+				precio= "precio" + driver.findElement(strprecioP1).getText();
+			}
+			
+			String strTextoP1 = "nombre: "+ driver.findElement(strNombreP1).getText()+ precioP1;
+			String strTextoP2 = "nombre: "+ driver.findElement(strNombreP2).getText();
+			String strTextoP3 = "nombre: "+ driver.findElement(strNombreP3).getText();
+			
+			System.out.println(strTextoP1);
+			System.out.println(strTextoP2);
+			System.out.println(strTextoP3);
+	}
+	
+
+}
