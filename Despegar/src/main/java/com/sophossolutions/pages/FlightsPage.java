@@ -3,6 +3,8 @@ package com.sophossolutions.pages;
 import java.util.LinkedList;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -10,7 +12,6 @@ import com.sophossolutions.actions.Action;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 
-@DefaultUrl("https://www.despegar.com.co/")
 public class FlightsPage extends PageObject {
 
 	By airlineOptions = By.xpath("//airlines-matrix-airline/ul/li[1]//div[@class='airline-name']/span");
@@ -26,6 +27,7 @@ public class FlightsPage extends PageObject {
 	public void printLowestCostTicketsPerAirline() {
 		List<WebElement> airlines = Action.getElements(getDriver(), airlineOptions);
 		List<WebElement> directPrices = new LinkedList<>(), layoverPrices = new LinkedList<>();
+		String endMessage = "";
 		
 		// Fill lists with prices per airline
 		for (int i = 1; i <= airlines.size(); i++) {
@@ -48,7 +50,11 @@ public class FlightsPage extends PageObject {
 		// Compare direct vs layover to determine lowest priced ticket per airline
 		for (int i = 0; i < airlines.size(); i++) {
 			WebElement airline = airlines.get(i);
-			System.out.println(String.format("Aerolínea: %s", airline.getText()));
+			String airlineMessage = String.format("Airline: %s", airline.getText());
+			endMessage += airlineMessage + "\n";
+			
+			// Print airline in the console
+			System.out.println(airlineMessage);
 			
 			int lowestPrice;
 			if (directPrices.get(i) == null) { 
@@ -60,10 +66,14 @@ public class FlightsPage extends PageObject {
 				int directCost = Integer.parseInt(directPrices.get(i).getText().replace(".", ""));
 				lowestPrice = Math.min(layoverCost, directCost);
 			}
+			String ticketMessage = String.format("Cheapest Flight: $%d", lowestPrice);
+			endMessage += ticketMessage + "\n";
 			
-			System.out.println(String.format("Vuelo más barato: $%d", lowestPrice));
+			// Print ticket in the console
+			System.out.println(ticketMessage);
 		}
 		
-		
+		// Show tickets in a dialog
+		JOptionPane.showMessageDialog(null, endMessage);
 	}
 }
