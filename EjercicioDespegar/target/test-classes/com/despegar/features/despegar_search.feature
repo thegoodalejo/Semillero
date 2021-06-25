@@ -10,5 +10,5 @@ Scenario Outline: Busqueda vuelo mas economico por empresa
     Examples: 
       |targetOrigen |targetDestino | numAdultos | numJov  | listAges |
       |Bucaramanga  |Medellin      |     3      |    2    |   2,4    |
-     #|Cali         |Bogota        |     3      |    2    |  "2,4"   |
-     #|Medellin     |Bucaramanga   |            |         |          |
+      |Cali         |Bogota        |     2      |    1    |    1     |
+      |Medellin     |Bucaramanga   |     1      |    3    |  5,3,10  |

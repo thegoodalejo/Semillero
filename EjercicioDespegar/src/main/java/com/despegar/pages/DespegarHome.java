@@ -42,14 +42,14 @@ public class DespegarHome extends PageObject {
 
 	public void writeDateIni() {
 		Action.clickInObject(getDriver(), calendarIni);
-		By calendarDays = By.xpath( String.format(txtDateFormat,"2"));
+		By calendarDays = By.xpath( String.format(txtDateFormat,"1"));
 		Action.waitForElement(getDriver(), calendarDays, 10);
 		Action.clickInObject(getDriver(),  calendarDays);
 	}
 
 	public void writeDateEnd() {
 		Action.clickInObject(getDriver(), calendarEnd);
-		By calendarDays = By.xpath( String.format(txtDateFormat,"3"));
+		By calendarDays = By.xpath( String.format(txtDateFormat,"5"));
 		Action.waitForElement(getDriver(), calendarDays, 10);
 		Action.clickInObject(getDriver(),  calendarDays);
 	}
