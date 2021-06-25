@@ -10,7 +10,7 @@ Scenario Outline: Busqueda vuelo mas economico por empresa
 
     Examples: 
       |targetOrigen |targetDestino  | numAdultos | numJov  | listAges | tipoClase          |
-      |Bucaramanga  |Medellin       |     3      |    2    |   2,4    | Economica          |
+      |Bucaramanga  |Medellin       |     1      |    2    |    0,1   | Economica          |
       |Cali         |Bogota         |     2      |    1    |    1     | Premium economy    |
       |Medellin     |Bucaramanga    |     1      |    0    |    0     | Ejecutiva/Business |
-      |Neiva        |Barranquilla   |     3      |    2    |   0,1    | Primera Clase      |
+      |Neiva        |Barranquilla   |     1      |    2    |   10,11  | Primera Clase      |
