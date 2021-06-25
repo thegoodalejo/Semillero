@@ -15,7 +15,6 @@ public class DespegarSearchStepDefinitions {
 	@Given("Quiero ir a la pagina {string}")
 	public void quieroIrALaPagina(String url) {
 		despegarHome.navegateTo(url);
-	    
 	}
 	@When("para viajar desde (.+) hasta (.+)$")
 	public void paraViajarDesdeHasta(String strFromCity, String strToCity) {
@@ -28,6 +27,11 @@ public class DespegarSearchStepDefinitions {
 	@When("cotizar un viaje con (.+) adultos, (.+) niños de edades (.+)$")
 	public void cotizarUnViajeConAdultosNiñosDeEdades(int nAdults, int nBoys, String listAges) {
 		despegarHome.selectPassengers(nAdults, nBoys, listAges);
+	}
+	
+	@When("selecionar clase (.+) para el viaje$")
+	public void selecionarClaseEconomicaParaElViaje(String typeClass) {
+		despegarHome.selectClassToFlight(typeClass);
 		despegarHome.searchTravel();
 	}
 	

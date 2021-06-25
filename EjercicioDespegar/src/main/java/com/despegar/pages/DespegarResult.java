@@ -1,6 +1,5 @@
 package com.despegar.pages;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +19,7 @@ public class DespegarResult extends PageObject {
 	}
 
 	public void showListPrecios() {
-		getDriver().manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
+		//getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
 		List<WebElement> listAirlines = getDriver().findElements(By.xpath(txtXpathAirline));
 		if (listAirlines.size() > 0) {
 			//ArrayList<String> AirlinesToShow = new ArrayList<String>();
