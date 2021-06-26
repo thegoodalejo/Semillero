@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-06-2021 17:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-06-2021 23:25</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Verificacion de archivos
+                                <span class="error-color">Verificacion de archivos
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -209,29 +209,51 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//div[@class='d-flex flex-column flex-md-row flex-justify-between border-bottom pb-3 position-relative']//h3'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sophossolutions.pages.GitHubSearchResults.getCantRepoTotal(GitHubSearchResults.java:49)<br />com.sophossolutions.pages.GitHubSearchResults.collectData(GitHubSearchResults.java:43)<br />com.sophossolutions.stepdefinitions.FilesRepositoriesCheckStepDefinitions.buscarLaCantidadDeArchivosEnElRepositorioAngular(FilesRepositoriesCheckStepDefinitions.java:24)<br />✽.Buscar la cantidad de archivos en el repositorio angular(file:///C:/Users/juan.blanco/Documents/semilleroTesting/Semillero/AutomatizacionGithub/src/test/resources/com/sophossolutions/features/files_repositories_check.feature:7)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2277577906658063122.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="c3eef3745c741844f8acc68dbb0c137dd3a25640d65bc868b5a117a17e97ed43.png" title=" Example: {repoName=angular}" width="1366"/>
-                <img src="c3eef3745c741844f8acc68dbb0c137dd3a25640d65bc868b5a117a17e97ed43.png" title=" Given Quiero entrar a github &quot;https://github.com/&quot;" width="1366"/>
-                <img src="c3eef3745c741844f8acc68dbb0c137dd3a25640d65bc868b5a117a17e97ed43.png" title=" When Buscar la cantidad de archivos en el repositorio angular" width="1366"/>
-                <img src="74b9686fc6ca333ee5373ae8b0b1dffaf183c0ec22f59fe3f5b641aef3ff366f.png" title=" When Buscar la cantidad de archivos en el repositorio angular (completed)" width="1366"/>
-                <img src="74b9686fc6ca333ee5373ae8b0b1dffaf183c0ec22f59fe3f5b641aef3ff366f.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio" width="1366"/>
-                <img src="74b9686fc6ca333ee5373ae8b0b1dffaf183c0ec22f59fe3f5b641aef3ff366f.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio (completed)" width="1366"/>
-                <img src="74b9686fc6ca333ee5373ae8b0b1dffaf183c0ec22f59fe3f5b641aef3ff366f.png" title=" Example: {repoName=angular} (completed)" width="1366"/>
-                <img src="d49691e6a266d4da359a18a13eefae249d1543640e7239cb1dad2193a863cae3.png" title=" Example: {repoName=react}" width="1366"/>
-                <img src="d49691e6a266d4da359a18a13eefae249d1543640e7239cb1dad2193a863cae3.png" title=" Given Quiero entrar a github &quot;https://github.com/&quot;" width="1366"/>
-                <img src="d49691e6a266d4da359a18a13eefae249d1543640e7239cb1dad2193a863cae3.png" title=" When Buscar la cantidad de archivos en el repositorio react" width="1366"/>
-                <img src="b79f6e987587bb53523026e3dcc0b5164b718c7f15d8297792edf4ffed27bd28.png" title=" When Buscar la cantidad de archivos en el repositorio react (completed)" width="1366"/>
-                <img src="b79f6e987587bb53523026e3dcc0b5164b718c7f15d8297792edf4ffed27bd28.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio" width="1366"/>
-                <img src="b79f6e987587bb53523026e3dcc0b5164b718c7f15d8297792edf4ffed27bd28.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio (completed)" width="1366"/>
-                <img src="b79f6e987587bb53523026e3dcc0b5164b718c7f15d8297792edf4ffed27bd28.png" title=" Example: {repoName=react} (completed)" width="1366"/>
-                <img src="a22e3f4a06b65a6828838e233ebace9ba8a4c623defe87d7f01ca6ccebaaee4a.png" title=" Example: {repoName=node}" width="1366"/>
-                <img src="a22e3f4a06b65a6828838e233ebace9ba8a4c623defe87d7f01ca6ccebaaee4a.png" title=" Given Quiero entrar a github &quot;https://github.com/&quot;" width="1366"/>
-                <img src="a22e3f4a06b65a6828838e233ebace9ba8a4c623defe87d7f01ca6ccebaaee4a.png" title=" When Buscar la cantidad de archivos en el repositorio node" width="1366"/>
-                <img src="d28759509de1949a43d8786026a112f78f90de74c120a479897d0a8c55bd754b.png" title=" When Buscar la cantidad de archivos en el repositorio node (completed)" width="1366"/>
-                <img src="d28759509de1949a43d8786026a112f78f90de74c120a479897d0a8c55bd754b.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio" width="1366"/>
-                <img src="d28759509de1949a43d8786026a112f78f90de74c120a479897d0a8c55bd754b.png" title=" Then Validar por tipo la cantidad de archivos en el repositorio (completed)" width="1366"/>
-                <img src="d28759509de1949a43d8786026a112f78f90de74c120a479897d0a8c55bd754b.png" title=" Example: {repoName=node} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="a88c7051b4eaa7ae3d7f6482a12f8084b3b8e6be89cbbd5817f3160f86c3f43a.png" title=" Example: {repoName=angular}" width="1366"/>
+                <img src="a88c7051b4eaa7ae3d7f6482a12f8084b3b8e6be89cbbd5817f3160f86c3f43a.png" title=" Given Quiero entrar a github &quot;https://github.com/&quot;" width="1366"/>
+                <img src="a88c7051b4eaa7ae3d7f6482a12f8084b3b8e6be89cbbd5817f3160f86c3f43a.png" title=" When Buscar la cantidad de archivos en el repositorio angular" width="1366"/>
+                <img src="17ad641dcc9a1e38d2fc448e3e309d7aa89af6a20a600c2732b6f4de20ea8f9f.png" title=" When Buscar la cantidad de archivos en el repositorio angular (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
