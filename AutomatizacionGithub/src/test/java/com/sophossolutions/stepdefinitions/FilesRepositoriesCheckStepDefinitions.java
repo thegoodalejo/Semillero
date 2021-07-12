@@ -26,8 +26,8 @@ public class FilesRepositoriesCheckStepDefinitions {
 
 	@Then("Validar por tipo la cantidad de archivos en el repositorio")
 	public void validarPorTipoLaCantidadDeArchivosEnElRepositorio() {
+		System.out.println(GitHubSearchResultsPage.getDataTable());
 		//GitHubSearchResultsPage.validateData(TotalReposOfPage);
-	    System.out.println(GitHubSearchResultsPage.getDataTable());
 	}
 	
 }

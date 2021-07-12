@@ -9,6 +9,7 @@ Feature: Verificacion archivos en repositorio
 
     Examples: 
       | repoName  |
-      | angular   |
-#      | react     |
+#      | angular   |
+      | react     |
 #      | node      |
+#      | vue       |

@@ -72,10 +72,13 @@ public class GitHubSearchResults extends PageObject {
 
 	public void validateData(Integer totalRepos) {
 		//assertEquals(expectedData, resultData)
-		assertEquals(totalRepos.toString(), Actions.sumList(listCantReposByLangOfPage).toString() );
+		assertEquals("Valido que los datos sean iguales",
+				totalRepos.toString(),
+				Actions.sumList(listCantReposByLangOfPage).toString() );
 		for (int i = 0; i < listLanguages.size(); i++) {
-				assertEquals(listCantReposByLang.get(i).toString(),
-				             listCantReposByLangOfPage.get(i).toString() );
+				assertEquals("Valido que los datos sean iguales",
+						listCantReposByLang.get(i).toString(),
+						listCantReposByLangOfPage.get(i).toString() );
 		}
 	}
 
