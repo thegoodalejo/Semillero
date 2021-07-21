@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-07-2021 13:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-07-2021 13:42</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Busqueda vuelo mas economico por empresa
+                                <span class="error-color">Busqueda vuelo mas economico por empresa
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -209,52 +209,86 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element click intercepted exception: element click intercepted: Element (button class='steppers-icon-right stepper__icon' tabindex='')...(/button) is not clickable at point (1115, 291). Other element would receive the click: (div class='sbox5-button-container--1X4O8')...(/div)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementClickInterceptedException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.despegar.actions.Action.clickInObject(Action.java:20)<br />com.despegar.pages.DespegarHome.addPerson(DespegarHome.java:80)<br />com.despegar.pages.DespegarHome.selectPassengers(DespegarHome.java:70)<br />com.despegar.stepdefinitions.DespegarSearchStepDefinitions.cotizarUnViajeConAdultosNiñosDeEdades(DespegarSearchStepDefinitions.java:29)<br />✽.cotizar un viaje con 2 adultos, 1 niños de edades 1(file:///C:/Users/juan.blanco/Documents/semilleroTesting/Semillero/EjercicioDespegar/src/test/resources/com/despegar/features/despegar_search.feature:7)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7812262525977615350.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="b6e3f16ff5338738ab996286a545b229bd44500e99a04fb3642b0bb43be0b746.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin, numAdultos=1, numJov=2, listAges=0,1, tipoClase=Economica}" width="1366"/>
-                <img src="b6e3f16ff5338738ab996286a545b229bd44500e99a04fb3642b0bb43be0b746.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="b6e3f16ff5338738ab996286a545b229bd44500e99a04fb3642b0bb43be0b746.png" title=" When para viajar desde Bucaramanga hasta Medellin" width="1366"/>
-                <img src="a96f3b0ca8dc75e4c65d209a8949520eaf809fa23004663c106115c332e184e2.png" title=" When para viajar desde Bucaramanga hasta Medellin (completed)" width="1366"/>
-                <img src="a96f3b0ca8dc75e4c65d209a8949520eaf809fa23004663c106115c332e184e2.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 0,1" width="1366"/>
-                <img src="b8f6505ada4d336cd6cea870bf15e8b09ecaebdb8fb15ac4202b6fab7c0518c3.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 0,1 (completed)" width="1366"/>
-                <img src="b8f6505ada4d336cd6cea870bf15e8b09ecaebdb8fb15ac4202b6fab7c0518c3.png" title=" And selecionar clase Economica para el viaje" width="1366"/>
-                <img src="c556520efb565295eb258bf76958333e561fd9064fce73b01e011dc41a548dd3.png" title=" And selecionar clase Economica para el viaje (completed)" width="1366"/>
-                <img src="c556520efb565295eb258bf76958333e561fd9064fce73b01e011dc41a548dd3.png" title=" Then verificando los precios menores" width="1366"/>
+                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin, numAdultos=1, numJov=2, listAges=0,1, tipoClase=Economica}" width="1366"/>
+                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
+                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" When para viajar desde Bucaramanga hasta Medellin" width="1366"/>
+                <img src="2cd6381a9443865668db4f4028270eea03704728228e1166fc46a44210ac4941.png" title=" When para viajar desde Bucaramanga hasta Medellin (completed)" width="1366"/>
+                <img src="2cd6381a9443865668db4f4028270eea03704728228e1166fc46a44210ac4941.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 0,1" width="1366"/>
+                <img src="0f62d28d8cc1306a1efb284b1c6447fd84d0f24eb7355f0e76e629ba1b68ac49.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 0,1 (completed)" width="1366"/>
+                <img src="0f62d28d8cc1306a1efb284b1c6447fd84d0f24eb7355f0e76e629ba1b68ac49.png" title=" And selecionar clase Economica para el viaje" width="1366"/>
+                <img src="ff216b67b29448660b552a8785a11ad882d426a29a0be95c29708dcbf50d3ef0.png" title=" And selecionar clase Economica para el viaje (completed)" width="1366"/>
+                <img src="ff216b67b29448660b552a8785a11ad882d426a29a0be95c29708dcbf50d3ef0.png" title=" Then verificando los precios menores" width="1366"/>
                 <img src="c556520efb565295eb258bf76958333e561fd9064fce73b01e011dc41a548dd3.png" title=" Then verificando los precios menores (completed)" width="1366"/>
                 <img src="c556520efb565295eb258bf76958333e561fd9064fce73b01e011dc41a548dd3.png" title=" Example: {targetOrigen=Bucaramanga, targetDestino=Medellin, numAdultos=1, numJov=2, listAges=0,1, tipoClase=Economica} (completed)" width="1366"/>
-                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" Example: {targetOrigen=Cali, targetDestino=Bogota, numAdultos=2, numJov=1, listAges=1, tipoClase=Premium economy}" width="1366"/>
-                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="6a45290b73d3bb84aa708bf5f4a745733cb77881e0ebf7cdd4b32a63497dcbd8.png" title=" When para viajar desde Cali hasta Bogota" width="1366"/>
-                <img src="037cd5138ba67eef4f889cf65f90a49eb1742c7929c8c2f4855257c69f65019d.png" title=" When para viajar desde Cali hasta Bogota (completed)" width="1366"/>
-                <img src="037cd5138ba67eef4f889cf65f90a49eb1742c7929c8c2f4855257c69f65019d.png" title=" And cotizar un viaje con 2 adultos, 1 ni&ntilde;os de edades 1" width="1366"/>
-                <img src="ac8bf62ae41d3795f68b18b92ac9ee5e6d5cf4023f52dd37b69fa2af62c89308.png" title=" And cotizar un viaje con 2 adultos, 1 ni&ntilde;os de edades 1 (completed)" width="1366"/>
-                <img src="ac8bf62ae41d3795f68b18b92ac9ee5e6d5cf4023f52dd37b69fa2af62c89308.png" title=" And selecionar clase Premium economy para el viaje" width="1366"/>
-                <img src="21f584f517e6562ffab65a6dd5a8879fe94b731ba9d45b48e174806cd1760a27.png" title=" And selecionar clase Premium economy para el viaje (completed)" width="1366"/>
-                <img src="21f584f517e6562ffab65a6dd5a8879fe94b731ba9d45b48e174806cd1760a27.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="bbfa36ae8ee8b929b83dcc7de8834a72c7a3250afce222adc484e759e79dad5c.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="bbfa36ae8ee8b929b83dcc7de8834a72c7a3250afce222adc484e759e79dad5c.png" title=" Example: {targetOrigen=Cali, targetDestino=Bogota, numAdultos=2, numJov=1, listAges=1, tipoClase=Premium economy} (completed)" width="1366"/>
-                <img src="98a30ca4dbe4a4bf2134378b1e830b4056bc1498c05c5cccd9f22a5799c150e3.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga, numAdultos=1, numJov=0, listAges=0, tipoClase=Ejecutiva/Business}" width="1366"/>
-                <img src="98a30ca4dbe4a4bf2134378b1e830b4056bc1498c05c5cccd9f22a5799c150e3.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="98a30ca4dbe4a4bf2134378b1e830b4056bc1498c05c5cccd9f22a5799c150e3.png" title=" When para viajar desde Medellin hasta Bucaramanga" width="1366"/>
-                <img src="3232f69e96e83dcb67d6f98f9cd7f67daa9f0eb7bec9c0bc335a6c29b6d785a3.png" title=" When para viajar desde Medellin hasta Bucaramanga (completed)" width="1366"/>
-                <img src="3232f69e96e83dcb67d6f98f9cd7f67daa9f0eb7bec9c0bc335a6c29b6d785a3.png" title=" And cotizar un viaje con 1 adultos, 0 ni&ntilde;os de edades 0" width="1366"/>
-                <img src="6190f58e4e9411951c90d6a1f830edc9f6a9952b8fbb4e4cc067d9f124f49517.png" title=" And cotizar un viaje con 1 adultos, 0 ni&ntilde;os de edades 0 (completed)" width="1366"/>
-                <img src="6190f58e4e9411951c90d6a1f830edc9f6a9952b8fbb4e4cc067d9f124f49517.png" title=" And selecionar clase Ejecutiva/Business para el viaje" width="1366"/>
-                <img src="4cf0e80b1efec97810bd754d24f27e1ff8b827e74a7b6cdbfba25048dbe16600.png" title=" And selecionar clase Ejecutiva/Business para el viaje (completed)" width="1366"/>
-                <img src="4cf0e80b1efec97810bd754d24f27e1ff8b827e74a7b6cdbfba25048dbe16600.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="b2e72413a23abc43ec36c63ed5944697bc1e8593aec7060003e77c77d594dab6.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="b2e72413a23abc43ec36c63ed5944697bc1e8593aec7060003e77c77d594dab6.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga, numAdultos=1, numJov=0, listAges=0, tipoClase=Ejecutiva/Business} (completed)" width="1366"/>
-                <img src="5bd8e646173ba4c4b9cc645dd05dc211de1067da8cdfbfcfb0047b10aa6b4612.png" title=" Example: {targetOrigen=Neiva, targetDestino=Barranquilla, numAdultos=1, numJov=2, listAges=10,11, tipoClase=Primera Clase}" width="1366"/>
-                <img src="5bd8e646173ba4c4b9cc645dd05dc211de1067da8cdfbfcfb0047b10aa6b4612.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
-                <img src="5bd8e646173ba4c4b9cc645dd05dc211de1067da8cdfbfcfb0047b10aa6b4612.png" title=" When para viajar desde Neiva hasta Barranquilla" width="1366"/>
-                <img src="cd280d7c306ec8173cdb571f8c96c5b3bb02883b72960d3ed977141339f3c9d5.png" title=" When para viajar desde Neiva hasta Barranquilla (completed)" width="1366"/>
-                <img src="cd280d7c306ec8173cdb571f8c96c5b3bb02883b72960d3ed977141339f3c9d5.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 10,11" width="1366"/>
-                <img src="0f9ca68ca29f2d6196cf080787c15985ea2ba2823cb003a6696f07831b7f3125.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 10,11 (completed)" width="1366"/>
-                <img src="0f9ca68ca29f2d6196cf080787c15985ea2ba2823cb003a6696f07831b7f3125.png" title=" And selecionar clase Primera Clase para el viaje" width="1366"/>
-                <img src="b0ef94ccab26a5e787a3efa6ead9a8e41c2d305a4549580b740c937de92d521b.png" title=" And selecionar clase Primera Clase para el viaje (completed)" width="1366"/>
-                <img src="b0ef94ccab26a5e787a3efa6ead9a8e41c2d305a4549580b740c937de92d521b.png" title=" Then verificando los precios menores" width="1366"/>
-                <img src="6678618ce784396e55d86fdcba61dbd7ffa4da20e228c926c67c1e3c4d6e9991.png" title=" Then verificando los precios menores (completed)" width="1366"/>
-                <img src="6678618ce784396e55d86fdcba61dbd7ffa4da20e228c926c67c1e3c4d6e9991.png" title=" Example: {targetOrigen=Neiva, targetDestino=Barranquilla, numAdultos=1, numJov=2, listAges=10,11, tipoClase=Primera Clase} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="13024069ef19830a960e7c1d9f54e87bf35cba28d6d8c1c8429c49e3f4d46402.png" title=" Example: {targetOrigen=Cali, targetDestino=Bogota, numAdultos=2, numJov=1, listAges=1, tipoClase=Premium economy}" width="1366"/>
+                <img src="13024069ef19830a960e7c1d9f54e87bf35cba28d6d8c1c8429c49e3f4d46402.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
+                <img src="13024069ef19830a960e7c1d9f54e87bf35cba28d6d8c1c8429c49e3f4d46402.png" title=" When para viajar desde Cali hasta Bogota" width="1366"/>
+                <img src="650a8f9496a46498e600ac4ae3c0d83d5c0dfb2873071fef80c737b4e5b3c724.png" title=" When para viajar desde Cali hasta Bogota (completed)" width="1366"/>
+                <img src="650a8f9496a46498e600ac4ae3c0d83d5c0dfb2873071fef80c737b4e5b3c724.png" title=" And cotizar un viaje con 2 adultos, 1 ni&ntilde;os de edades 1" width="1366"/>
+                <img src="bcb8ed2d6ca558de9c212540b74eba2d80dbbb0f1959a29f9c6245132d8b3aba.png" title=" And cotizar un viaje con 2 adultos, 1 ni&ntilde;os de edades 1 (completed)" width="1366"/>
+                <img src="88f06ca081aba14c3361f3ea0af2cc00e811440840b4a5a5bf0118917ffc4c02.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga, numAdultos=1, numJov=0, listAges=0, tipoClase=Ejecutiva/Business}" width="1366"/>
+                <img src="88f06ca081aba14c3361f3ea0af2cc00e811440840b4a5a5bf0118917ffc4c02.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
+                <img src="88f06ca081aba14c3361f3ea0af2cc00e811440840b4a5a5bf0118917ffc4c02.png" title=" When para viajar desde Medellin hasta Bucaramanga" width="1366"/>
+                <img src="10b89104a7b55a5d9b535103005a78226b1fe3631aeac32a70bebaebb555690b.png" title=" When para viajar desde Medellin hasta Bucaramanga (completed)" width="1366"/>
+                <img src="10b89104a7b55a5d9b535103005a78226b1fe3631aeac32a70bebaebb555690b.png" title=" And cotizar un viaje con 1 adultos, 0 ni&ntilde;os de edades 0" width="1366"/>
+                <img src="17344b440c7c30d3af30ede6f0426ad24227109b5a513c9f53516e4bc4bc54c8.png" title=" And cotizar un viaje con 1 adultos, 0 ni&ntilde;os de edades 0 (completed)" width="1366"/>
+                <img src="17344b440c7c30d3af30ede6f0426ad24227109b5a513c9f53516e4bc4bc54c8.png" title=" And selecionar clase Ejecutiva/Business para el viaje" width="1366"/>
+                <img src="979a1878b54f37ba930fe8f6a6ebc9346605f71c5833b72fad6af2328cc8f296.png" title=" And selecionar clase Ejecutiva/Business para el viaje (completed)" width="1366"/>
+                <img src="979a1878b54f37ba930fe8f6a6ebc9346605f71c5833b72fad6af2328cc8f296.png" title=" Then verificando los precios menores" width="1366"/>
+                <img src="93f6231dd87bd21117290d030bb8797f21365058631e590d9fae70acfed11bed.png" title=" Then verificando los precios menores (completed)" width="1366"/>
+                <img src="93f6231dd87bd21117290d030bb8797f21365058631e590d9fae70acfed11bed.png" title=" Example: {targetOrigen=Medellin, targetDestino=Bucaramanga, numAdultos=1, numJov=0, listAges=0, tipoClase=Ejecutiva/Business} (completed)" width="1366"/>
+                <img src="03d4ea4556d21622045583468f399e78fb8d84dfa81b90735b5e978286b69208.png" title=" Example: {targetOrigen=Neiva, targetDestino=Barranquilla, numAdultos=1, numJov=2, listAges=10,11, tipoClase=Primera Clase}" width="1366"/>
+                <img src="03d4ea4556d21622045583468f399e78fb8d84dfa81b90735b5e978286b69208.png" title=" Given Quiero ir a la pagina &quot;https://www.despegar.com.co&quot;" width="1366"/>
+                <img src="03d4ea4556d21622045583468f399e78fb8d84dfa81b90735b5e978286b69208.png" title=" When para viajar desde Neiva hasta Barranquilla" width="1366"/>
+                <img src="ac18cc51b4418389eb66218fb5d8a76b6a7b3c7557ccd3f9b48bbf642d960ab9.png" title=" When para viajar desde Neiva hasta Barranquilla (completed)" width="1366"/>
+                <img src="ac18cc51b4418389eb66218fb5d8a76b6a7b3c7557ccd3f9b48bbf642d960ab9.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 10,11" width="1366"/>
+                <img src="3f251d0b10cecf2cfa29c195ecda021d61f776c7c701f6ac9e35b19b1142ff07.png" title=" And cotizar un viaje con 1 adultos, 2 ni&ntilde;os de edades 10,11 (completed)" width="1366"/>
+                <img src="3f251d0b10cecf2cfa29c195ecda021d61f776c7c701f6ac9e35b19b1142ff07.png" title=" And selecionar clase Primera Clase para el viaje" width="1366"/>
+                <img src="7ebad5918891d7ba512d904f1272f0337452ad80e85211313f0d379b61b1b80b.png" title=" And selecionar clase Primera Clase para el viaje (completed)" width="1366"/>
+                <img src="7ebad5918891d7ba512d904f1272f0337452ad80e85211313f0d379b61b1b80b.png" title=" Then verificando los precios menores" width="1366"/>
+                <img src="6e0cf299d7d0cfeadaa56d4cc09c9bd6999e7bdd0b790ec05d07e0a2fe61da6b.png" title=" Then verificando los precios menores (completed)" width="1366"/>
+                <img src="6e0cf299d7d0cfeadaa56d4cc09c9bd6999e7bdd0b790ec05d07e0a2fe61da6b.png" title=" Example: {targetOrigen=Neiva, targetDestino=Barranquilla, numAdultos=1, numJov=2, listAges=10,11, tipoClase=Primera Clase} (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
